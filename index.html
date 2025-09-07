@@ -45,11 +45,13 @@
   <section class="max-w-6xl mx-auto px-6 py-10">
     <h2 class="text-2xl font-semibold text-primary mb-6">Seen Speaker Samples</h2>
     <div class="overflow-x-auto">
-      <table class="min-w-full border border-gray-300 bg-white rounded-lg shadow">
+      <table class="min-w-full   bg-white rounded-lg shadow">
         
         <thead class="bg-light text-white">
           <tr>
-            <th class="bg-primary px-4 py-3 text-left">Prompt</th>
+            <th class="px-4 py-3 text-left">Target Accent</th>
+            <th class="px-4 py-3 text-left">Prompt Accent</th>
+            <th class="px-4 py-3 text-left">Prompt Speaker</th>
             <th class="bg-primary px-4 py-3 text-left">MacST</th>
             <th class="bg-primary px-4 py-3 text-left">Joycent</th>
             <th class="bg-primary px-4 py-3 text-left">w/o spk CLN</th>
@@ -64,19 +66,25 @@
         </tr>
  
           <tr>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_prompt1.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3">Singaporean</td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_prompt_accent_sg.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_prompt_accent_speaker.wav" type="audio/wav"/></audio></td>
             <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_macst1.wav" type="audio/wav"/></audio></td>
             <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_our1.wav" type="audio/wav"/></audio></td>
             <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_ab1_1.wav" type="audio/wav"/></audio></td>
             <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_ab2_1.wav" type="audio/wav"/></audio></td>
           </tr>
-          <tr class="bg-gray-100">
-          <td colspan="5" class="px-4 py-2 text-base italic text-gray-700">
-            "市委市政府已经下决心"
-          </td>
-          </tr>
- 
+           
           <tr>
+            <td class="px-4 py-3">Northern</td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_prompt2.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_macst2.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_our2.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_ab1_2.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_ab2_2.wav" type="audio/wav"/></audio></td>
+          </tr>
+          <tr>
+            <td class="px-4 py-3">Southern</td>
             <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_prompt2.wav" type="audio/wav"/></audio></td>
             <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_macst2.wav" type="audio/wav"/></audio></td>
             <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_our2.wav" type="audio/wav"/></audio></td>
@@ -129,7 +137,8 @@
       <table class="min-w-full  bg-white rounded-lg shadow">
         <thead class="bg-light text-white">
           <tr>
-            <th class="px-4 py-3 text-left">Prompt</th>
+            <th class="px-4 py-3 text-left">Prompt Accent</th>
+            <th class="px-4 py-3 text-left">Prompt Speaker</th>
             <th class="px-4 py-3 text-left">MacST</th>
             <th class="px-4 py-3 text-left">Our System</th>
             <th class="px-4 py-3 text-left">Ablation 1</th>
@@ -139,12 +148,14 @@
         <tbody class="divide-y divide-gray-200">
           <tr>
             <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt1.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt1.wav" type="audio/wav"/></audio></td>
             <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_macst1.wav" type="audio/wav"/></audio></td>
             <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_our1.wav" type="audio/wav"/></audio></td>
             <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_ab1_1.wav" type="audio/wav"/></audio></td>
             <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_ab2_1.wav" type="audio/wav"/></audio></td>
           </tr>
           <tr>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt1.wav" type="audio/wav"/></audio></td>
             <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt2.wav" type="audio/wav"/></audio></td>
             <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_macst2.wav" type="audio/wav"/></audio></td>
             <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_our2.wav" type="audio/wav"/></audio></td>
