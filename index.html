@@ -37,7 +37,7 @@
   <!-- Model Figure -->
   <section class="max-w-4xl mx-auto px-6 py-10">
     <h2 class="text-2xl font-semibold text-primary mb-4">Model Architecture</h2>
-    <img src="assets/model.pdf" alt="Model Diagram" class="rounded-lg shadow-md mx-auto border-4 border-accent"/>
+    <img src="assets/accent_tts2.png" alt="Model Diagram" class="rounded-lg shadow-md mx-auto border-4 border-accent"/>
     <p class="text-center mt-2 text-gray-600 text-sm">Figure 1. Overall model architecture.</p>
   </section>
 
@@ -46,16 +46,18 @@
     <h2 class="text-2xl font-semibold text-primary mb-6">Seen Speaker Samples</h2>
     <div class="overflow-x-auto">
       <table class="min-w-full border border-gray-300 bg-white rounded-lg shadow">
+        
         <thead class="bg-light text-white">
           <tr>
-            <th class="px-4 py-3 text-left">Prompt</th>
-            <th class="px-4 py-3 text-left">MacST</th>
-            <th class="px-4 py-3 text-left">Our System</th>
-            <th class="px-4 py-3 text-left">Ablation 1</th>
-            <th class="px-4 py-3 text-left">Ablation 2</th>
+            <th class="bg-primary px-4 py-3 text-left">Prompt</th>
+            <th class="bg-primary px-4 py-3 text-left">MacST</th>
+            <th class="bg-primary px-4 py-3 text-left">Joycent</th>
+            <th class="bg-primary px-4 py-3 text-left">w/o spk CLN</th>
+            <th class="bg-primary px-4 py-3 text-left">w/o LLM emb</th>
           </tr>
         </thead>
         <tbody class="divide-y divide-gray-200">
+            是真的没有
           <tr>
             <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_prompt1.wav" type="audio/wav"/></audio></td>
             <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_macst1.wav" type="audio/wav"/></audio></td>
@@ -63,6 +65,7 @@
             <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_ab1_1.wav" type="audio/wav"/></audio></td>
             <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_ab2_1.wav" type="audio/wav"/></audio></td>
           </tr>
+          市委市政府已经下决心
           <tr>
             <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_prompt2.wav" type="audio/wav"/></audio></td>
             <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_macst2.wav" type="audio/wav"/></audio></td>
@@ -82,11 +85,11 @@
       <table class="min-w-full border border-gray-300 bg-white rounded-lg shadow">
         <thead class="bg-light text-white">
           <tr>
-            <th class="px-4 py-3 text-left">Prompt</th>
-            <th class="px-4 py-3 text-left">MacST</th>
-            <th class="px-4 py-3 text-left">Our System</th>
-            <th class="px-4 py-3 text-left">Ablation 1</th>
-            <th class="px-4 py-3 text-left">Ablation 2</th>
+            <th class="bg-primary px-4 py-3 text-left">Prompt</th>
+            <th class="bg-primary px-4 py-3 text-left">MacST</th>
+            <th class="bg-primary px-4 py-3 text-left">Our System</th>
+            <th class="bg-primary px-4 py-3 text-left">Ablation 1</th>
+            <th class="bg-primary px-4 py-3 text-left">Ablation 2</th>
           </tr>
         </thead>
         <tbody class="divide-y divide-gray-200">
