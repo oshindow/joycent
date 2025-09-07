@@ -16,17 +16,6 @@
     .bg-light { background-color: var(--color-light); }
     .text-primary { color: var(--color-primary); }
     .text-accent { color: var(--color-accent); }
-    .text-light { color: var(--color-light); }
-    .btn {
-      background-color: var(--color-accent);
-      color: white;
-      padding: 0.5rem 1rem;
-      border-radius: 0.5rem;
-      transition: 0.2s;
-    }
-    .btn:hover {
-      background-color: var(--color-primary);
-    }
   </style>
 </head>
 <body class="bg-light text-gray-800 font-sans">
@@ -55,59 +44,104 @@
   </section>
 
   <!-- Seen Speaker -->
-  <section class="max-w-4xl mx-auto px-6 py-10">
-    <h2 class="text-2xl font-semibold text-primary mb-4">Seen Speaker Samples</h2>
-    <div class="space-y-4">
-      <div class="p-4 rounded-lg shadow bg-white border-l-4 border-accent">
-        <p class="font-medium text-accent">Seen Speaker Example 1</p>
-        <audio controls class="w-full mt-2">
-          <source src="audio/seen1.wav" type="audio/wav"/>
-        </audio>
-      </div>
-      <div class="p-4 rounded-lg shadow bg-white border-l-4 border-accent">
-        <p class="font-medium text-accent">Seen Speaker Example 2</p>
-        <audio controls class="w-full mt-2">
-          <source src="audio/seen2.wav" type="audio/wav"/>
-        </audio>
-      </div>
+  <section class="max-w-6xl mx-auto px-6 py-10">
+    <h2 class="text-2xl font-semibold text-primary mb-6">Seen Speaker Samples</h2>
+    <div class="overflow-x-auto">
+      <table class="min-w-full border border-gray-300 bg-white rounded-lg shadow">
+        <thead class="bg-accent text-white">
+          <tr>
+            <th class="px-4 py-3 text-left">Prompt</th>
+            <th class="px-4 py-3 text-left">MacST</th>
+            <th class="px-4 py-3 text-left">Our System</th>
+            <th class="px-4 py-3 text-left">Ablation 1</th>
+            <th class="px-4 py-3 text-left">Ablation 2</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-200">
+          <tr>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_prompt1.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_macst1.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_our1.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_ab1_1.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_ab2_1.wav" type="audio/wav"/></audio></td>
+          </tr>
+          <tr>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_prompt2.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_macst2.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_our2.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_ab1_2.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/seen_ab2_2.wav" type="audio/wav"/></audio></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </section>
 
   <!-- Unseen Speaker -->
-  <section class="max-w-4xl mx-auto px-6 py-10">
-    <h2 class="text-2xl font-semibold text-primary mb-4">Unseen Speaker Samples</h2>
-    <div class="space-y-4">
-      <div class="p-4 rounded-lg shadow bg-white border-l-4 border-accent">
-        <p class="font-medium text-accent">Unseen Speaker Example 1</p>
-        <audio controls class="w-full mt-2">
-          <source src="audio/unseen1.wav" type="audio/wav"/>
-        </audio>
-      </div>
-      <div class="p-4 rounded-lg shadow bg-white border-l-4 border-accent">
-        <p class="font-medium text-accent">Unseen Speaker Example 2</p>
-        <audio controls class="w-full mt-2">
-          <source src="audio/unseen2.wav" type="audio/wav"/>
-        </audio>
-      </div>
+  <section class="max-w-6xl mx-auto px-6 py-10">
+    <h2 class="text-2xl font-semibold text-primary mb-6">Unseen Speaker Samples</h2>
+    <div class="overflow-x-auto">
+      <table class="min-w-full border border-gray-300 bg-white rounded-lg shadow">
+        <thead class="bg-accent text-white">
+          <tr>
+            <th class="px-4 py-3 text-left">Prompt</th>
+            <th class="px-4 py-3 text-left">MacST</th>
+            <th class="px-4 py-3 text-left">Our System</th>
+            <th class="px-4 py-3 text-left">Ablation 1</th>
+            <th class="px-4 py-3 text-left">Ablation 2</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-200">
+          <tr>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/unseen_prompt1.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/unseen_macst1.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/unseen_our1.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/unseen_ab1_1.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/unseen_ab2_1.wav" type="audio/wav"/></audio></td>
+          </tr>
+          <tr>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/unseen_prompt2.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/unseen_macst2.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/unseen_our2.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/unseen_ab1_2.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/unseen_ab2_2.wav" type="audio/wav"/></audio></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </section>
 
   <!-- Accent Prompt -->
-  <section class="max-w-4xl mx-auto px-6 py-10">
-    <h2 class="text-2xl font-semibold text-primary mb-4">Accent Prompt Samples</h2>
-    <div class="space-y-4">
-      <div class="p-4 rounded-lg shadow bg-white border-l-4 border-accent">
-        <p class="font-medium text-accent">Accent Prompt 1</p>
-        <audio controls class="w-full mt-2">
-          <source src="audio/prompt1.wav" type="audio/wav"/>
-        </audio>
-      </div>
-      <div class="p-4 rounded-lg shadow bg-white border-l-4 border-accent">
-        <p class="font-medium text-accent">Accent Prompt 2</p>
-        <audio controls class="w-full mt-2">
-          <source src="audio/prompt2.wav" type="audio/wav"/>
-        </audio>
-      </div>
+  <section class="max-w-6xl mx-auto px-6 py-10">
+    <h2 class="text-2xl font-semibold text-primary mb-6">Accent Prompt Samples</h2>
+    <div class="overflow-x-auto">
+      <table class="min-w-full border border-gray-300 bg-white rounded-lg shadow">
+        <thead class="bg-accent text-white">
+          <tr>
+            <th class="px-4 py-3 text-left">Prompt</th>
+            <th class="px-4 py-3 text-left">MacST</th>
+            <th class="px-4 py-3 text-left">Our System</th>
+            <th class="px-4 py-3 text-left">Ablation 1</th>
+            <th class="px-4 py-3 text-left">Ablation 2</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-200">
+          <tr>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt1.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_macst1.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_our1.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_ab1_1.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_ab2_1.wav" type="audio/wav"/></audio></td>
+          </tr>
+          <tr>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt2.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_macst2.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_our2.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_ab1_2.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_ab2_2.wav" type="audio/wav"/></audio></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </section>
 
