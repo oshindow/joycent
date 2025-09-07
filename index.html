@@ -18,28 +18,26 @@
     .text-accent { color: var(--color-accent); }
   </style>
 </head>
-<body class="bg-light text-gray-800 font-sans">
+<body class=" text-gray-800 font-sans">
 
   <!-- Header -->
   <header class="text-center py-10 bg-primary text-white">
     <h1 class="text-4xl font-bold mb-2">Accent TTS Demo</h1>
-    <p class="text-lg">Diffusion-based Front-End-Free Accent Text-to-Speech with Phone-Level Style Tokens</p>
+    <p class="text-lg">Joycent: Zero-Shot Accent TTS with LLM-Assisted Accent Embeddings and Conditional Layer Normalization</p>
   </header>
 
   <!-- Abstract -->
   <section class="max-w-4xl mx-auto px-6 py-10">
     <h2 class="text-2xl font-semibold text-primary mb-4">Abstract</h2>
     <p class="text-justify">
-      This work proposes a diffusion-based accent TTS model that removes the reliance on front-end phoneme encoders.
-      The system introduces phone-level style tokens to capture accent variations while preserving speaker identity.
-      Experiments demonstrate robust performance on both seen and unseen speakers, as well as across multiple accents.
+      Text-to-speech (TTS) systems have advanced in producing natural speech across speakers and styles, yet zero-shot accent control remains challenging due to the entanglement of speaker and accent attributes. We propose Joycent, a novel accent TTS model that integrates both audio-based and LLM-assisted accent embeddings to achieve disentangled and natural accent synthesis. Audio-based embeddings are derived from the speech using the pre-trained accent identification model WhisAID, while LLM-assisted embeddings are generated from natural language descriptions of the textual target accent prompt. Speaker embeddings are separately extracted and, together with the accent embeddings, are conditioned via conditional layer normalization (CLN) modules within the text encoder. Experiments demonstrate that Joycent outperforms baselines in naturalness, accentedness, and speaker similarity, proving effective in zero-shot accent generation without compromising speaker identity. 
     </p>
   </section>
 
   <!-- Model Figure -->
   <section class="max-w-4xl mx-auto px-6 py-10">
     <h2 class="text-2xl font-semibold text-primary mb-4">Model Architecture</h2>
-    <img src="assets/model.png" alt="Model Diagram" class="rounded-lg shadow-md mx-auto border-4 border-accent"/>
+    <img src="assets/model.pdf" alt="Model Diagram" class="rounded-lg shadow-md mx-auto border-4 border-accent"/>
     <p class="text-center mt-2 text-gray-600 text-sm">Figure 1. Overall model architecture.</p>
   </section>
 
@@ -48,7 +46,7 @@
     <h2 class="text-2xl font-semibold text-primary mb-6">Seen Speaker Samples</h2>
     <div class="overflow-x-auto">
       <table class="min-w-full border border-gray-300 bg-white rounded-lg shadow">
-        <thead class="bg-accent text-white">
+        <thead class="bg-light text-white">
           <tr>
             <th class="px-4 py-3 text-left">Prompt</th>
             <th class="px-4 py-3 text-left">MacST</th>
@@ -82,7 +80,7 @@
     <h2 class="text-2xl font-semibold text-primary mb-6">Unseen Speaker Samples</h2>
     <div class="overflow-x-auto">
       <table class="min-w-full border border-gray-300 bg-white rounded-lg shadow">
-        <thead class="bg-accent text-white">
+        <thead class="bg-light text-white">
           <tr>
             <th class="px-4 py-3 text-left">Prompt</th>
             <th class="px-4 py-3 text-left">MacST</th>
@@ -116,7 +114,7 @@
     <h2 class="text-2xl font-semibold text-primary mb-6">Accent Prompt Samples</h2>
     <div class="overflow-x-auto">
       <table class="min-w-full border border-gray-300 bg-white rounded-lg shadow">
-        <thead class="bg-accent text-white">
+        <thead class="bg-light text-white">
           <tr>
             <th class="px-4 py-3 text-left">Prompt</th>
             <th class="px-4 py-3 text-left">MacST</th>
