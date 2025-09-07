@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Accent TTS Demo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="text-center py-10 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
+    <h1 class="text-4xl font-bold mb-2">Accent TTS Demo</h1>
+    <p class="text-lg">Diffusion-based Front-End-Free Accent Text-to-Speech with Phone-Level Style Tokens</p>
+  </header>
+
+  <!-- Abstract -->
+  <section class="max-w-4xl mx-auto px-6 py-10">
+    <h2 class="text-2xl font-semibold mb-4">Abstract</h2>
+    <p class="text-justify">
+      This work proposes a diffusion-based accent TTS model that removes the reliance on front-end phoneme encoders.
+      The system introduces phone-level style tokens to capture accent variations while preserving speaker identity.
+      Experiments demonstrate robust performance on both seen and unseen speakers, as well as across multiple accents.
+    </p>
+  </section>
+
+  <!-- Model Figure -->
+  <section class="max-w-4xl mx-auto px-6 py-10">
+    <h2 class="text-2xl font-semibold mb-4">Model Architecture</h2>
+    <img src="assets/model.png" alt="Model Diagram" class="rounded-lg shadow-md mx-auto"/>
+    <p class="text-center mt-2 text-gray-500 text-sm">Figure 1. Overall model architecture.</p>
+  </section>
+
+  <!-- Seen Speaker -->
+  <section class="max-w-4xl mx-auto px-6 py-10">
+    <h2 class="text-2xl font-semibold mb-4">Seen Speaker Samples</h2>
+    <div class="space-y-4">
+      <div>
+        <p class="font-medium">Seen Speaker Example 1</p>
+        <audio controls class="w-full">
+          <source src="audio/seen1.wav" type="audio/wav"/>
+        </audio>
+      </div>
+      <div>
+        <p class="font-medium">Seen Speaker Example 2</p>
+        <audio controls class="w-full">
+          <source src="audio/seen2.wav" type="audio/wav"/>
+        </audio>
+      </div>
+    </div>
+  </section>
+
+  <!-- Unseen Speaker -->
+  <section class="max-w-4xl mx-auto px-6 py-10">
+    <h2 class="text-2xl font-semibold mb-4">Unseen Speaker Samples</h2>
+    <div class="space-y-4">
+      <div>
+        <p class="font-medium">Unseen Speaker Example 1</p>
+        <audio controls class="w-full">
+          <source src="audio/unseen1.wav" type="audio/wav"/>
+        </audio>
+      </div>
+      <div>
+        <p class="font-medium">Unseen Speaker Example 2</p>
+        <audio controls class="w-full">
+          <source src="audio/unseen2.wav" type="audio/wav"/>
+        </audio>
+      </div>
+    </div>
+  </section>
+
+  <!-- Accent Prompt -->
+  <section class="max-w-4xl mx-auto px-6 py-10">
+    <h2 class="text-2xl font-semibold mb-4">Accent Prompt Samples</h2>
+    <div class="space-y-4">
+      <div>
+        <p class="font-medium">Accent Prompt 1</p>
+        <audio controls class="w-full">
+          <source src="audio/prompt1.wav" type="audio/wav"/>
+        </audio>
+      </div>
+      <div>
+        <p class="font-medium">Accent Prompt 2</p>
+        <audio controls class="w-full">
+          <source src="audio/prompt2.wav" type="audio/wav"/>
+        </audio>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-gray-200 mt-10 text-sm text-gray-600">
+    © 2025 Accent TTS Demo
+  </footer>
+
+</body>
+</html>
