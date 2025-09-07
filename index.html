@@ -5,18 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Accent TTS Demo</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --color-primary: #155875;  /* 深紫红 */
+      --color-accent: #1e7d9e;   /* 蓝绿色 */
+      --color-light: #c6dde5;    /* 浅蓝灰 */
+    }
+    .bg-primary { background-color: var(--color-primary); }
+    .bg-accent { background-color: var(--color-accent); }
+    .bg-light { background-color: var(--color-light); }
+    .text-primary { color: var(--color-primary); }
+    .text-accent { color: var(--color-accent); }
+    .text-light { color: var(--color-light); }
+    .btn {
+      background-color: var(--color-accent);
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      transition: 0.2s;
+    }
+    .btn:hover {
+      background-color: var(--color-primary);
+    }
+  </style>
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans">
+<body class="bg-light text-gray-800 font-sans">
 
   <!-- Header -->
-  <header class="text-center py-10 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
+  <header class="text-center py-10 bg-primary text-white">
     <h1 class="text-4xl font-bold mb-2">Accent TTS Demo</h1>
     <p class="text-lg">Diffusion-based Front-End-Free Accent Text-to-Speech with Phone-Level Style Tokens</p>
   </header>
 
   <!-- Abstract -->
   <section class="max-w-4xl mx-auto px-6 py-10">
-    <h2 class="text-2xl font-semibold mb-4">Abstract</h2>
+    <h2 class="text-2xl font-semibold text-primary mb-4">Abstract</h2>
     <p class="text-justify">
       This work proposes a diffusion-based accent TTS model that removes the reliance on front-end phoneme encoders.
       The system introduces phone-level style tokens to capture accent variations while preserving speaker identity.
@@ -26,24 +49,24 @@
 
   <!-- Model Figure -->
   <section class="max-w-4xl mx-auto px-6 py-10">
-    <h2 class="text-2xl font-semibold mb-4">Model Architecture</h2>
-    <img src="assets/model.png" alt="Model Diagram" class="rounded-lg shadow-md mx-auto"/>
-    <p class="text-center mt-2 text-gray-500 text-sm">Figure 1. Overall model architecture.</p>
+    <h2 class="text-2xl font-semibold text-primary mb-4">Model Architecture</h2>
+    <img src="assets/model.png" alt="Model Diagram" class="rounded-lg shadow-md mx-auto border-4 border-accent"/>
+    <p class="text-center mt-2 text-gray-600 text-sm">Figure 1. Overall model architecture.</p>
   </section>
 
   <!-- Seen Speaker -->
   <section class="max-w-4xl mx-auto px-6 py-10">
-    <h2 class="text-2xl font-semibold mb-4">Seen Speaker Samples</h2>
+    <h2 class="text-2xl font-semibold text-primary mb-4">Seen Speaker Samples</h2>
     <div class="space-y-4">
-      <div>
-        <p class="font-medium">Seen Speaker Example 1</p>
-        <audio controls class="w-full">
+      <div class="p-4 rounded-lg shadow bg-white border-l-4 border-accent">
+        <p class="font-medium text-accent">Seen Speaker Example 1</p>
+        <audio controls class="w-full mt-2">
           <source src="audio/seen1.wav" type="audio/wav"/>
         </audio>
       </div>
-      <div>
-        <p class="font-medium">Seen Speaker Example 2</p>
-        <audio controls class="w-full">
+      <div class="p-4 rounded-lg shadow bg-white border-l-4 border-accent">
+        <p class="font-medium text-accent">Seen Speaker Example 2</p>
+        <audio controls class="w-full mt-2">
           <source src="audio/seen2.wav" type="audio/wav"/>
         </audio>
       </div>
@@ -52,17 +75,17 @@
 
   <!-- Unseen Speaker -->
   <section class="max-w-4xl mx-auto px-6 py-10">
-    <h2 class="text-2xl font-semibold mb-4">Unseen Speaker Samples</h2>
+    <h2 class="text-2xl font-semibold text-primary mb-4">Unseen Speaker Samples</h2>
     <div class="space-y-4">
-      <div>
-        <p class="font-medium">Unseen Speaker Example 1</p>
-        <audio controls class="w-full">
+      <div class="p-4 rounded-lg shadow bg-white border-l-4 border-accent">
+        <p class="font-medium text-accent">Unseen Speaker Example 1</p>
+        <audio controls class="w-full mt-2">
           <source src="audio/unseen1.wav" type="audio/wav"/>
         </audio>
       </div>
-      <div>
-        <p class="font-medium">Unseen Speaker Example 2</p>
-        <audio controls class="w-full">
+      <div class="p-4 rounded-lg shadow bg-white border-l-4 border-accent">
+        <p class="font-medium text-accent">Unseen Speaker Example 2</p>
+        <audio controls class="w-full mt-2">
           <source src="audio/unseen2.wav" type="audio/wav"/>
         </audio>
       </div>
@@ -71,17 +94,17 @@
 
   <!-- Accent Prompt -->
   <section class="max-w-4xl mx-auto px-6 py-10">
-    <h2 class="text-2xl font-semibold mb-4">Accent Prompt Samples</h2>
+    <h2 class="text-2xl font-semibold text-primary mb-4">Accent Prompt Samples</h2>
     <div class="space-y-4">
-      <div>
-        <p class="font-medium">Accent Prompt 1</p>
-        <audio controls class="w-full">
+      <div class="p-4 rounded-lg shadow bg-white border-l-4 border-accent">
+        <p class="font-medium text-accent">Accent Prompt 1</p>
+        <audio controls class="w-full mt-2">
           <source src="audio/prompt1.wav" type="audio/wav"/>
         </audio>
       </div>
-      <div>
-        <p class="font-medium">Accent Prompt 2</p>
-        <audio controls class="w-full">
+      <div class="p-4 rounded-lg shadow bg-white border-l-4 border-accent">
+        <p class="font-medium text-accent">Accent Prompt 2</p>
+        <audio controls class="w-full mt-2">
           <source src="audio/prompt2.wav" type="audio/wav"/>
         </audio>
       </div>
@@ -89,7 +112,7 @@
   </section>
 
   <!-- Footer -->
-  <footer class="text-center py-6 bg-gray-200 mt-10 text-sm text-gray-600">
+  <footer class="text-center py-6 bg-primary text-white mt-10 text-sm">
     © 2025 Accent TTS Demo
   </footer>
 
