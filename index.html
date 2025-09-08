@@ -45,7 +45,7 @@
   </section>
 
   <!-- Seen Speaker -->
-  <section class="w-full mx-auto px-6 py-10">
+  <section class="max-w-7xl mx-auto px-6 py-10">
     <h2 class="text-2xl font-semibold text-primary mb-6">Seen Speaker Samples</h2>
     <div class="overflow-x-auto">
       <table class="min-w-full   bg-white rounded-lg shadow">
@@ -62,54 +62,7 @@
           </tr>
         </thead>
         <tbody class="divide-y divide-gray-200">
-          <tr class="bg-gray-100">
-          <td colspan="7" class="px-4 py-2 text-base italic text-gray-700">
-            "是真的没有"
-          </td>
-          </tr>
-          <tr>
-            <td class="px-4 py-3">Singaporean</td>
-            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_acc/sg/A0001_S001_0_G0002_segment_0134.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB06930020.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/elevenlabs/SSB06230059_SSB0693_sg_gen.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/ours/SSB06230059_SSB0693_sg_gen.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmspkcln/SSB06230059_SSB0693_sg_gen.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmllm/SSB06230059_SSB0693_sg_gen.wav" type="audio/wav"/></audio></td>
-          </tr>
-          <tr>
-            <td class="px-4 py-3">Southern</td>
-            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB06930020.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB06930020.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3">-</td>
-            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/ours/SSB06230059_SSB0693_south_gen.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmspkcln/SSB06230059_SSB0693_south_gen.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmllm/SSB06230059_SSB0693_south_gen.wav" type="audio/wav"/></audio></td>
-          </tr>
-
-          <tr class="bg-gray-100">
-          <td colspan="7" class="px-4 py-2 text-base italic text-gray-700">
-            "市委市政府已经下决心"
-          </td>
-          </tr>
-          <tr>
-            <td class="px-4 py-3">Singaporean</td>
-            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_acc/sg/A0001_S001_0_G0002_segment_0134.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB06930020.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/elevenlabs/SSB08170253_SSB0693_sg_gen.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/ours/SSB08170253_SSB0693_sg_gen.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmspkcln/SSB08170253_SSB0693_sg_gen.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmllm/SSB08170253_SSB0693_sg_gen.wav" type="audio/wav"/></audio></td>
-          </tr>
-          <tr>
-            <td class="px-4 py-3">Southern</td>
-            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB06930020.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB06930020.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3">-</td>
-            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/ours/SSB08170253_SSB0693_south_gen.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmspkcln/SSB08170253_SSB0693_south_gen.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmllm/SSB08170253_SSB0693_south_gen.wav" type="audio/wav"/></audio></td>
-          </tr>
-
+           
           <tr class="bg-gray-100">
           <td colspan="7" class="px-4 py-2 text-base italic text-gray-700">
             "但是争取好成绩的前提是身体好"
@@ -260,71 +213,168 @@
   </section>
 
   <!-- Unseen Speaker -->
-  <section class="w-full mx-auto px-6 py-10">
+  <section class="max-w-7xl mx-auto px-6 py-10">
     <h2 class="text-2xl font-semibold text-primary mb-6">Unseen Speaker Samples</h2>
     <div class="overflow-x-auto">
       <table class="min-w-full   bg-white rounded-lg shadow">
+        
         <thead class="bg-light text-white">
           <tr>
-            <th class="bg-primary px-4 py-3 text-left">Prompt</th>
+            <th class="bg-primary px-4 py-3 text-left">Target Accent</th>
+            <th class="bg-primary px-4 py-3 text-left">Prompt Accent</th>
+            <th class="bg-primary px-4 py-3 text-left">Prompt Speaker</th>
             <th class="bg-primary px-4 py-3 text-left">MacST</th>
-            <th class="bg-primary px-4 py-3 text-left">Our System</th>
-            <th class="bg-primary px-4 py-3 text-left">Ablation 1</th>
-            <th class="bg-primary px-4 py-3 text-left">Ablation 2</th>
+            <th class="bg-primary px-4 py-3 text-left">Joycent</th>
+            <th class="bg-primary px-4 py-3 text-left">w/o spk CLN</th>
+            <th class="bg-primary px-4 py-3 text-left">w/o LLM emb</th>
           </tr>
         </thead>
         <tbody class="divide-y divide-gray-200">
-          <tr>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/unseen_prompt1.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/unseen_macst1.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/unseen_our1.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/unseen_ab1_1.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/unseen_ab2_1.wav" type="audio/wav"/></audio></td>
+           
+          <tr class="bg-gray-100">
+          <td colspan="7" class="px-4 py-2 text-base italic text-gray-700">
+            "但是争取好成绩的前提是身体好"
+          </td>
           </tr>
           <tr>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/unseen_prompt2.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/unseen_macst2.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/unseen_our2.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/unseen_ab1_2.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/unseen_ab2_2.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3">Singaporean</td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_acc/sg/A0001_S001_0_G0002_segment_0134.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB13400036.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/elevenlabs/SSB08170368_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/ours/SSB08170368_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmspkcln/SSB08170368_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmllm/SSB08170368_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
           </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
+          <tr>
+            <td class="px-4 py-3">Nothern</td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB13400036.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB13400036.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3">-</td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/ours/SSB08170368_SSB1340_south_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmspkcln/SSB08170368_SSB1340_south_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmllm/SSB08170368_SSB1340_south_gen.wav" type="audio/wav"/></audio></td>
+          </tr>
 
-  <!-- Accent Prompt -->
-  <section class="max-w-6xl mx-auto px-6 py-10">
-    <h2 class="text-2xl font-semibold text-primary mb-6">Accent Prompt Samples</h2>
-    <div class="overflow-x-auto">
-      <table class="min-w-full  bg-white rounded-lg shadow">
-        <thead class="bg-light text-white">
-          <tr>
-            <th class="px-4 py-3 text-left">Prompt Accent</th>
-            <th class="px-4 py-3 text-left">Prompt Speaker</th>
-            <th class="px-4 py-3 text-left">MacST</th>
-            <th class="px-4 py-3 text-left">Our System</th>
-            <th class="px-4 py-3 text-left">Ablation 1</th>
-            <th class="px-4 py-3 text-left">Ablation 2</th>
-          </tr>
-        </thead>
-        <tbody class="divide-y divide-gray-200">
-          <tr>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt1.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt1.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_macst1.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_our1.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_ab1_1.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_ab2_1.wav" type="audio/wav"/></audio></td>
+          <tr class="bg-gray-100">
+          <td colspan="7" class="px-4 py-2 text-base italic text-gray-700">
+            "我想只有这样才能平息这个风波"
+          </td>
           </tr>
           <tr>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt1.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt2.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_macst2.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_our2.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_ab1_2.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_ab2_2.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3">Singaporean</td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_acc/sg/A0001_S001_0_G0002_segment_0134.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB13400036.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/elevenlabs/SSB08510183_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/ours/SSB08510183_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmspkcln/SSB08510183_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmllm/SSB08510183_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
           </tr>
+          <tr>
+            <td class="px-4 py-3">Southern</td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB13400036.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB13400036.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3">-</td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/ours/SSB08510183_SSB1340_south_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmspkcln/SSB08510183_SSB1340_south_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmllm/SSB08510183_SSB1340_south_gen.wav" type="audio/wav"/></audio></td>
+          </tr>
+
+          <tr class="bg-gray-100">
+          <td colspan="7" class="px-4 py-2 text-base italic text-gray-700">
+            "这主要是因为对于很多车主来说"
+          </td>
+          </tr>
+          <tr>
+            <td class="px-4 py-3">Singaporean</td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_acc/sg/A0001_S001_0_G0002_segment_0134.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB13400036.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/elevenlabs/SSB19020103_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/ours/SSB19020103_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmspkcln/SSB19020103_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmllm/SSB19020103_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
+          </tr>
+          <tr>
+            <td class="px-4 py-3">Southern</td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB13400036.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB13400036.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3">-</td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/ours/SSB19020103_SSB1340_south_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmspkcln/SSB19020103_SSB1340_south_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmllm/SSB19020103_SSB1340_south_gen.wav" type="audio/wav"/></audio></td>
+          </tr>
+
+          <tr class="bg-gray-100">
+          <td colspan="7" class="px-4 py-2 text-base italic text-gray-700">
+            "他带领中国女排闯进决赛"
+          </td>
+          </tr>
+          <tr>
+            <td class="px-4 py-3">Singaporean</td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_acc/sg/A0001_S001_0_G0002_segment_0134.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB13400036.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/elevenlabs/SSB18720267_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/ours/SSB18720267_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmspkcln/SSB18720267_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmllm/SSB18720267_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
+          </tr>
+          <tr>
+            <td class="px-4 py-3">Southern</td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB13400036.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB13400036.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3">-</td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/ours/SSB18720267_SSB1340_south_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmspkcln/SSB18720267_SSB1340_south_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmllm/SSB18720267_SSB1340_south_gen.wav" type="audio/wav"/></audio></td>
+          </tr>
+
+          <tr class="bg-gray-100">
+          <td colspan="7" class="px-4 py-2 text-base italic text-gray-700">
+            "哦那不错诶你的中文还可以读那些书"
+          </td>
+          </tr>
+          <tr>
+            <td class="px-4 py-3">Singaporean</td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_acc/sg/A0001_S001_0_G0002_segment_0134.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB13400036.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/elevenlabs/A0002_S001_0_G0004_segment_0023_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/ours/A0002_S001_0_G0004_segment_0023_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmspkcln/A0002_S001_0_G0004_segment_0023_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmllm/A0002_S001_0_G0004_segment_0023_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
+          </tr>
+          <tr>
+            <td class="px-4 py-3">Southern</td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB13400036.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB13400036.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3">-</td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/ours/A0002_S001_0_G0004_segment_0023_SSB1340_south_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmspkcln/A0002_S001_0_G0004_segment_0023_SSB1340_south_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmllm/A0002_S001_0_G0004_segment_0023_SSB1340_south_gen.wav" type="audio/wav"/></audio></td>
+          </tr>
+
+          <tr class="bg-gray-100">
+          <td colspan="7" class="px-4 py-2 text-base italic text-gray-700">
+            "没有我最近呃最近是在看那个密室大逃脱但是已经完了到最后一集我还没看"
+          </td>
+          </tr>
+          <tr>
+            <td class="px-4 py-3">Singaporean</td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_acc/sg/A0001_S001_0_G0002_segment_0134.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB13400036.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/elevenlabs/A0002_S001_0_G0004_segment_0080_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/ours/A0002_S001_0_G0004_segment_0080_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmspkcln/A0002_S001_0_G0004_segment_0080_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmllm/A0002_S001_0_G0004_segment_0080_SSB1340_sg_gen.wav" type="audio/wav"/></audio></td>
+          </tr>
+          <tr>
+            <td class="px-4 py-3">Southern</td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB13400036.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB13400036.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3">-</td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/ours/A0002_S001_0_G0004_segment_0080_SSB1340_south_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmspkcln/A0002_S001_0_G0004_segment_0080_SSB1340_south_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmllm/A0002_S001_0_G0004_segment_0080_SSB1340_south_gen.wav" type="audio/wav"/></audio></td>
+          </tr>
+          
         </tbody>
       </table>
     </div>
