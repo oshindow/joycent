@@ -16,6 +16,9 @@
     .bg-light { background-color: var(--color-light); }
     .text-primary { color: var(--color-primary); }
     .text-accent { color: var(--color-accent); }
+    .audio-player {
+    width: 220px;   /* 你可以改成 200px, 250px 等合适的值 */
+  }
   </style>
 </head>
 <body class=" text-gray-800 font-sans">
@@ -67,22 +70,22 @@
  
           <tr>
             <td class="px-4 py-3">Singaporean</td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_acc/sg/A0001_S001_0_G0002_segment_0134.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_spk/female/SSB06930020.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/elevenlabs/SSB06230059_SSB0693_sg_gen.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/ours/SSB06230059_SSB0693_sg_gen.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/rmspkcln/SSB06230059_SSB0693_sg_gen.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/rmllm/SSB06230059_SSB0693_sg_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_acc/sg/A0001_S001_0_G0002_segment_0134.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB06930020.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/elevenlabs/SSB06230059_SSB0693_sg_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/ours/SSB06230059_SSB0693_sg_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmspkcln/SSB06230059_SSB0693_sg_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmllm/SSB06230059_SSB0693_sg_gen.wav" type="audio/wav"/></audio></td>
           </tr>
            
           <tr>
             <td class="px-4 py-3">Southern</td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_spk/female/SSB06930020.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/prompt_spk/female/SSB06930020.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/ours/SSB06230059_SSB0693_south_gen.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/rmspkcln/SSB06230059_SSB0693_sg_gen.wav" type="audio/wav"/></audio></td>
-            <td class="px-4 py-3"><audio controls class="w-full"><source src="audio/rmllm/SSB06230059_SSB0693_sg_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB06930020.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/prompt_spk/female/SSB06930020.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3">-/td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/ours/SSB06230059_SSB0693_south_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmspkcln/SSB06230059_SSB0693_south_gen.wav" type="audio/wav"/></audio></td>
+            <td class="px-4 py-3"><audio controls class="audio-player"><source src="audio/rmllm/SSB06230059_SSB0693_south_gen.wav" type="audio/wav"/></audio></td>
           </tr>
           
         </tbody>
