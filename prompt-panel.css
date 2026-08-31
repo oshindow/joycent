@@ -1,0 +1,50 @@
+.prompt-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(260px, .55fr);
+  gap: 30px;
+  align-items: center;
+  margin: 0 0 22px;
+  padding: 25px 28px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, .58);
+}
+
+.prompt-label {
+  display: block;
+  margin-bottom: 9px;
+  font: 600 10px Manrope;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  opacity: .48;
+}
+
+.prompt-copy p {
+  margin: 0;
+  font: 500 clamp(20px, 2.2vw, 29px)/1.4 Manrope;
+  letter-spacing: -.02em;
+}
+
+.reference-player {
+  padding-left: 30px;
+  border-left: 1px solid var(--line);
+}
+
+.reference-player audio {
+  display: block;
+  width: 100%;
+  height: 38px;
+}
+
+@media (max-width: 560px) {
+  .prompt-panel {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .reference-player {
+    padding: 20px 0 0;
+    border-top: 1px solid var(--line);
+    border-left: 0;
+  }
+}

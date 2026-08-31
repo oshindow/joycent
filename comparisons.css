@@ -1,0 +1,22 @@
+.comparisons { background: #f2c8ff; }
+.comparisons h2 em { color: #8c36a5; }
+.case-toolbar { display:flex; align-items:center; gap:14px; margin-bottom:20px; }
+.case-toolbar label { font:600 11px Manrope; letter-spacing:.12em; text-transform:uppercase; }
+.case-toolbar select { flex:1; max-width:600px; padding:13px 42px 13px 16px; border:1px solid rgba(22,22,22,.25); border-radius:100px; background:#fff; color:var(--ink); font:500 14px Manrope; }
+.case-toolbar span { font-size:12px; opacity:.5; }
+.comparison-stage { padding:28px; border:1px solid rgba(22,22,22,.15); border-radius:24px; background:rgba(255,255,255,.56); }
+.comparison-summary { display:grid; grid-template-columns:1fr 1fr 2fr; gap:24px; align-items:start; padding-bottom:24px; border-bottom:1px solid var(--line); }
+.comparison-summary span,.comparison-summary strong { display:block; }
+.comparison-summary strong { margin-top:7px; font:600 20px Manrope; }
+.comparison-summary p { margin:0; font:500 20px/1.55 Manrope; }
+.comparison-reference-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:12px; margin:22px 0 12px; }
+.comparison-model-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
+.comparison-audio { min-width:0; padding:17px; border:1px solid var(--line); border-radius:15px; background:#fff; }
+.comparison-audio span,.comparison-audio small { display:block; }
+.comparison-audio span { font:600 16px Manrope; }
+.comparison-audio small { min-height:28px; margin-top:4px; font-size:11px; opacity:.46; }
+.comparison-audio audio { width:100%; height:36px; }
+.comparison-audio.reference { background:rgba(255,255,255,.45); }
+.comparison-audio.featured { border-color:#8c36a5; box-shadow:inset 0 0 0 1px #8c36a5; }
+@media(max-width:900px){.comparison-summary{grid-template-columns:1fr 1fr}.comparison-summary p{grid-column:1/-1}.comparison-model-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.case-toolbar{align-items:stretch;flex-direction:column}.case-toolbar select{max-width:none;width:100%}.comparison-stage{padding:18px}.comparison-summary,.comparison-reference-grid,.comparison-model-grid{grid-template-columns:1fr}.comparison-summary p{grid-column:auto}}

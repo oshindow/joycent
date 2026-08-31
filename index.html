@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Project page for controllable Mandarin accent and speaker synthesis.">
+  <title>Accent-Controlled Speech Synthesis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="prompt-panel.css">
+  <link rel="stylesheet" href="comparisons.css">
+  <link rel="stylesheet" href="environment.css">
+</head>
+<body>
+  <nav class="nav" aria-label="Primary navigation">
+    <a class="brand" href="#top">ACCENT<span>LAB</span></a>
+    <div class="nav-links">
+      <a href="#same-speaker">Same speaker</a><a href="#same-accent">Same accent</a>
+      <a href="#cross-accent">Cross-accent</a><a href="#environment">Environment</a><a href="#method">Method</a><a href="#comparisons">Comparisons</a>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="orb orb-a"></div><div class="orb orb-b"></div>
+    <div class="hero-sticky">
+      <p class="eyebrow">RESEARCH PROJECT · 2026</p>
+      <h1 contenteditable="true" spellcheck="false">Joycent: Multi-Accent TTS via Disentangled Accent Modeling and Layer-Specific Conditioning</h1>
+      <p class="authors" contenteditable="true" spellcheck="false">Xintong Wang · Junchuan Zhao · Ye Wang</p>
+      <p class="institutions" contenteditable="true" spellcheck="false">School of Computing, National University of Singapore, Singapore</p>
+      <div class="hero-actions">
+        <a class="pill" href="https://github.com/oshindow/joycent" target="_blank" rel="noreferrer">↗ GitHub Code</a>
+        <a class="pill light" href="#" aria-label="Paper link placeholder">◫ Paper</a>
+      </div>
+      <p class="abstract" contenteditable="true" spellcheck="false">Joycent is a <strong>diffusion-based accent TTS</strong> framework that synthesizes speech in a target accent while preserving speaker identity — by separating accent and speaker information in both representation learning and generation conditioning. Using WhisAID to learn speaker-disentangled accent representations and layer-specific conditional layer normalization to inject accent and speaker information at different stages of the text encoder, Joycent enables robust synthesis for seen and unseen speakers, including challenging cross-accent settings where the speaker and accent prompts come from different accents.</p>
+      <p class="edit-note">Title, author, institution and abstract are editable placeholders.</p>
+    </div>
+    <div class="scroll-hint"><span></span>Scroll to explore</div>
+  </header>
+
+  <main>
+    <section class="intro section" id="same-speaker">
+      <p class="kicker">01 · ACCENT CONTROL</p>
+      <h2>One voice,<br><em>Seven accents.</em></h2>
+      <p class="lead">A fixed sentence synthesized with the same Speaker 129 identity. Only the accent condition changes.</p>
+      <div class="prompt-panel">
+        <div class="prompt-copy">
+          <span class="prompt-label">Synthesis text</span>
+          <p lang="zh-CN">“哎呀，挺不好教育的，而且你看现在学校。”</p>
+        </div>
+        <div class="reference-player">
+          <span class="prompt-label">Speaker reference · Speaker 129</span>
+          <audio controls preload="metadata">
+            <source src="audio/same-speaker/speaker-129-reference.wav" type="audio/wav">
+          </audio>
+        </div>
+      </div>
+      <div class="accent-strip" id="same-speaker-grid"></div>
+    </section>
+
+    <section class="section tinted" id="same-accent">
+      <p class="kicker">02 · SPEAKER CONTROL</p>
+      <h2>One accent,<br><em>multiple voices.</em></h2>
+      <p class="lead">Select an accent to compare distinct speaker identities under the same target accent. Samples are drawn from the retained evaluation set.</p>
+      <div class="tabs" id="accent-tabs" role="tablist"></div>
+      <div class="sample-grid" id="same-accent-grid"></div>
+    </section>
+
+    <section class="section dark" id="cross-accent">
+      <p class="kicker">03 · ZERO-SHOT TRANSFER</p>
+      <h2>Cross-accent<br><em>voice generation.</em></h2>
+      <p class="lead">Speaker identity and target accent come from different accent domains. Listen to the two references, then the generated result.</p>
+      <div class="cross-grid" id="cross-grid"></div>
+    </section>
+
+    <section class="section" id="environment">
+      <p class="kicker">04 · ACOUSTIC ENVIRONMENT</p>
+      <h2>Recreating the voice<br><em>and the room around it.</em></h2>
+      <p class="lead">Five paired comparisons for speaker and acoustic-environment reconstruction. Each case contrasts the original speaker reference with the generated speech.</p>
+      <div class="environment-grid" id="environment-grid"></div>
+    </section>
+
+    <section class="section method" id="method">
+      <p class="kicker">05 · METHOD</p>
+      <h2>Decoupled control,<br><em>unified generation.</em></h2>
+      <div class="method-placeholder">
+        <div class="diagram-icon">⌁</div>
+        <strong>Method figure placeholder</strong>
+        <span>Replace assets/method-placeholder.svg with your final method figure</span>
+      </div>
+    </section>
+
+    <section class="section comparisons" id="comparisons">
+      <p class="kicker">06 · MODEL COMPARISONS</p>
+      <h2>Baselines and<br><em>ablation models.</em></h2>
+      <p class="lead">Compare all systems on any of the 39 retained evaluation cases. The same speaker and accent references are shared across every model output.</p>
+      <div class="case-toolbar">
+        <label for="comparison-case">Evaluation case</label>
+        <select id="comparison-case" aria-label="Select one of 39 evaluation cases"></select>
+        <span id="comparison-count"></span>
+      </div>
+      <article class="comparison-stage">
+        <div class="comparison-summary">
+          <div><span class="meta">Transfer condition</span><strong id="comparison-route"></strong></div>
+          <div><span class="meta">Speaker</span><strong id="comparison-speaker"></strong></div>
+          <p id="comparison-text" lang="zh-CN"></p>
+        </div>
+        <div class="comparison-reference-grid" id="comparison-references"></div>
+        <div class="comparison-model-grid" id="comparison-models"></div>
+      </article>
+    </section>
+  </main>
+
+  <footer><span>Accent-Controlled Speech Synthesis</span><span>Research demo · 2026</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>

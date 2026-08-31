@@ -1,0 +1,1250 @@
+[
+  {
+    "id": "seen_in_accent__tgt-Sichuan__src-Sichuan__spk-138__02__G1108_0519",
+    "category": "seen_in_accent",
+    "target_accent": "Sichuan",
+    "source_accent": "Sichuan",
+    "speaker_id": 138,
+    "text": "啷 个 怎 么 做 一 个 忠 孝 两 全 的 人",
+    "phones": "sil l ang1 g e5 z en3 m e5 z uo4 i2 g e5 zh ong1 x iao4 l iang3 q van2 d e5 r en2 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Mandarin_Heavy_Accent_Conversational_Speech_Corpus/wav_16k/G0022_S0002_0_SPK032_169.55_172.763.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Sichuan_Dialect_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G1105/G1105_0153.wav",
+    "speaker_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "male",
+      "method": "f0",
+      "confidence": 0.99,
+      "median_f0": 109.28344305639337
+    },
+    "speaker_reference": "audio/refs/00905b0122eeefe690d9.wav",
+    "accent_reference": "audio/refs/9bd143472cd1268fa497.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/eb897263e2a9a6fe.wav",
+      "accentbox": "audio/systems/accentbox/eb897263e2a9a6fe.wav",
+      "dart": "audio/systems/dart/eb897263e2a9a6fe.wav",
+      "ours": "audio/systems/ours/eb897263e2a9a6fe.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "seen_in_accent__tgt-Sichuan__src-Sichuan__spk-138__08__G0013_S0003_0_SPK021_1271-36_1274-95",
+    "category": "seen_in_accent",
+    "target_accent": "Sichuan",
+    "source_accent": "Sichuan",
+    "speaker_id": 138,
+    "text": "等 很 多 东 西 但 是 你 都 带 不 走 它",
+    "phones": "sil d eng3 h en3 d uo1 d ong1 x i5 d an4 sh ix4 n i3 d ou1 d ai4 b u4 z ou3 t a1 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Mandarin_Heavy_Accent_Conversational_Speech_Corpus/wav_16k/G0022_S0002_0_SPK032_169.55_172.763.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Sichuan_Dialect_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G1106/G1106_0179.wav",
+    "speaker_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "unknown",
+      "method": "f0_ambiguous",
+      "confidence": 0,
+      "median_f0": 145.786472151552
+    },
+    "speaker_reference": "audio/refs/00905b0122eeefe690d9.wav",
+    "accent_reference": "audio/refs/1ae1c6711db09e7ddd3b.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/fe775887218ff648.wav",
+      "accentbox": "audio/systems/accentbox/fe775887218ff648.wav",
+      "dart": "audio/systems/dart/fe775887218ff648.wav",
+      "ours": "audio/systems/ours/fe775887218ff648.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "seen_in_accent__tgt-Sichuan__src-Sichuan__spk-129__03__G0060_S0002_0_SPK005_32-84_35-74",
+    "category": "seen_in_accent",
+    "target_accent": "Sichuan",
+    "source_accent": "Sichuan",
+    "speaker_id": 129,
+    "text": "这 个 手 机 不 错 价 格 也",
+    "phones": "sil zh e4 g e5 sh ou3 j i1 b u2 c uo4 j ia4 g e2 ie3 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Mandarin_Heavy_Accent_Conversational_Speech_Corpus/wav_16k/G0003_S0002_0_SPK009_1334.42_1336.09.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Sichuan_Dialect_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G0001/G0001_0214.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "f0",
+      "confidence": 0.99,
+      "median_f0": 267.8322826000403
+    },
+    "speaker_reference": "audio/refs/41a404ec85d59ecdd8e4.wav",
+    "accent_reference": "audio/refs/fef045883d9f7a54f4dd.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/a33d08b4a194b9b7.wav",
+      "accentbox": "audio/systems/accentbox/a33d08b4a194b9b7.wav",
+      "dart": "audio/systems/dart/a33d08b4a194b9b7.wav",
+      "ours": "audio/systems/ours/a33d08b4a194b9b7.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "seen_in_accent__tgt-Sichuan__src-Sichuan__spk-129__10__G0055_S0002_0_SPK030_1662-71_1668-448",
+    "category": "seen_in_accent",
+    "target_accent": "Sichuan",
+    "source_accent": "Sichuan",
+    "speaker_id": 129,
+    "text": "遵 义 的 时 候 就 回 来 的 路 上 的 时 候 跟 他 说 啊 我 们 要 去 吃 点 面 啊 或 者 说 吃 点 那 个",
+    "phones": "sil z un1 i4 d e5 sh ix2 h ou4 j iu4 h ui2 l ai2 d e5 l u4 sh ang4 d e5 sh ix2 h ou4 g en1 t a1 sh uo1 a5 uo3 m en5 iao4 q v4 ch ix1 d ian3 m ian4 a5 h uo4 zh e3 sh uo1 ch ix1 d ian3 n a4 g e5 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Mandarin_Heavy_Accent_Conversational_Speech_Corpus/wav_16k/G0003_S0002_0_SPK009_1334.42_1336.09.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Sichuan_Dialect_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G0003/G0003_0681.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "f0",
+      "confidence": 0.99,
+      "median_f0": 231.72814503659038
+    },
+    "speaker_reference": "audio/refs/41a404ec85d59ecdd8e4.wav",
+    "accent_reference": "audio/refs/cfe233217c31af4352f8.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/947d75ee025055af.wav",
+      "accentbox": "audio/systems/accentbox/947d75ee025055af.wav",
+      "dart": "audio/systems/dart/947d75ee025055af.wav",
+      "ours": "audio/systems/ours/947d75ee025055af.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_in_accent__tgt-Sichuan__src-Sichuan__spk-376__02__G0055_S0002_0_SPK030_1827-423_1829-77",
+    "category": "unseen_in_accent",
+    "target_accent": "Sichuan",
+    "source_accent": "Sichuan",
+    "speaker_id": 376,
+    "text": "啊 对 要 与 云 南 的 话 要 便 宜 点 的 嘛",
+    "phones": "sil a1 d ui4 iao4 v3 vn2 n an2 d e5 h ua4 iao4 p ian2 i2 d ian3 d e5 m a5 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Mandarin_Heavy_Accent_Conversational_Speech_Corpus/wav_16k/G0055_S0002_0_SPK030_1268.0_1269.13.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Mandarin_Heavy_Accent_Conversational_Speech_Corpus/wav_16k/G0042_S0002_0_SPK021_78.716_81.22.wav",
+    "speaker_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/a37f67989278f5f55470.wav",
+    "accent_reference": "audio/refs/476d4ff332b4f2b27354.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/2f97f3b8ec1ab8dd.wav",
+      "accentbox": "audio/systems/accentbox/2f97f3b8ec1ab8dd.wav",
+      "dart": "audio/systems/dart/2f97f3b8ec1ab8dd.wav",
+      "ours": "audio/systems/ours/2f97f3b8ec1ab8dd.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_in_accent__tgt-Sichuan__src-Sichuan__spk-376__06__G0060_S0002_0_SPK005_1436-96_1439-77",
+    "category": "unseen_in_accent",
+    "target_accent": "Sichuan",
+    "source_accent": "Sichuan",
+    "speaker_id": 376,
+    "text": "因 为 这 样 比 较 方 便 吧",
+    "phones": "sil in1 ui4 zh e4 iang4 b i3 j iao4 f ang1 b ian4 b a5 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Mandarin_Heavy_Accent_Conversational_Speech_Corpus/wav_16k/G0055_S0002_0_SPK030_1268.0_1269.13.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Mandarin_Heavy_Accent_Conversational_Speech_Corpus/wav_16k/G0042_S0002_0_SPK021_462.95_469.75.wav",
+    "speaker_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/a37f67989278f5f55470.wav",
+    "accent_reference": "audio/refs/1004d6f479d6d856fe6b.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/0aa49652d8463f80.wav",
+      "accentbox": "audio/systems/accentbox/0aa49652d8463f80.wav",
+      "dart": "audio/systems/dart/0aa49652d8463f80.wav",
+      "ours": "audio/systems/ours/0aa49652d8463f80.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "seen_in_accent__tgt-Guangdong__src-Guangdong__spk-200__03__G0043_S0002_0_SPK023_1161-57_1164-1",
+    "category": "seen_in_accent",
+    "target_accent": "Guangdong",
+    "source_accent": "Guangdong",
+    "speaker_id": 200,
+    "text": "它 这 种 就 是 第 三 人 称 我 就 比 较 少 玩",
+    "phones": "sil t a1 zh e4 zh ong3 j iu4 sh ix4 d i4 s an1 r en2 ch eng1 uo3 j iu4 b i3 j iao4 sh ao3 uan2 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Guangzhou_Cantonese_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G0067/G0067_S0534.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Guangzhou_Cantonese_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G0068/G0068_S0267.wav",
+    "speaker_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/36e19f8a90c8b1a286e6.wav",
+    "accent_reference": "audio/refs/b4e57fd5d27b01cfbb75.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/6ee72e59eba7b451.wav",
+      "accentbox": "audio/systems/accentbox/6ee72e59eba7b451.wav",
+      "dart": "audio/systems/dart/6ee72e59eba7b451.wav",
+      "ours": "audio/systems/ours/6ee72e59eba7b451.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "seen_in_accent__tgt-Guangdong__src-Guangdong__spk-200__08__G0009_1_S0179",
+    "category": "seen_in_accent",
+    "target_accent": "Guangdong",
+    "source_accent": "Guangdong",
+    "speaker_id": 200,
+    "text": "关 咗 个 天 窗 通 风",
+    "phones": "sil g uan1 z uo5 g e5 t ian1 ch uang1 t ong1 f eng1 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Guangzhou_Cantonese_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G0067/G0067_S0534.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Guangzhou_Cantonese_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G0071/G0071_S0516.wav",
+    "speaker_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/36e19f8a90c8b1a286e6.wav",
+    "accent_reference": "audio/refs/1f1fd56902492d05895e.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/337b24a8467ae2b8.wav",
+      "accentbox": "audio/systems/accentbox/337b24a8467ae2b8.wav",
+      "dart": "audio/systems/dart/337b24a8467ae2b8.wav",
+      "ours": "audio/systems/ours/337b24a8467ae2b8.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "seen_in_accent__tgt-Henan__src-Henan__spk-276__01__G0041_S0001_0_SPK008_747-44_753-462",
+    "category": "seen_in_accent",
+    "target_accent": "Henan",
+    "source_accent": "Henan",
+    "speaker_id": 276,
+    "text": "啊 把 葱 切 成 段 然 后 放 姜 片 然 后 放 一 点 料 酒 然 后 上 锅 蒸",
+    "phones": "sil a1 b a3 c ong1 q ie1 ch eng2 d uan4 r an2 h ou4 f ang4 j iang1 p ian4 r an2 h ou4 f ang4 i4 d ian3 l iao4 j iu3 r an2 h ou4 sh ang4 g uo1 zh eng1 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Mandarin_Heavy_Accent_Conversational_Speech_Corpus/wav_16k/G0020_S0003_0_SPK029_1333.46_1335.74.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Zhengzhou_Dialect_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G1196/G1196_0_S0339.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/ba0e58b41be1819aa387.wav",
+    "accent_reference": "audio/refs/2810cb1b6c3d12b16878.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/38da6f0611d015e0.wav",
+      "accentbox": "audio/systems/accentbox/38da6f0611d015e0.wav",
+      "dart": "audio/systems/dart/38da6f0611d015e0.wav",
+      "ours": "audio/systems/ours/38da6f0611d015e0.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "seen_in_accent__tgt-Henan__src-Henan__spk-275__01__G0016_S0002_0_SPK016_1435-4_1439-71",
+    "category": "seen_in_accent",
+    "target_accent": "Henan",
+    "source_accent": "Henan",
+    "speaker_id": 275,
+    "text": "嗯 嗯 蹦 一 下 几 米 远 然 后 跑 起 来 就 是 一 直 都 在 跳",
+    "phones": "sil en1 en1 b eng4 i2 x ia4 j i1 m i3 van3 r an2 h ou4 p ao3 q i3 l ai2 j iu4 sh ix4 i4 zh ix2 d ou1 z ai4 t iao4 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Mandarin_Heavy_Accent_Conversational_Speech_Corpus/wav_16k/G0016_S0003_0_SPK016_105.38_107.77.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Zhengzhou_Dialect_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G0011/G0011_0_S0132.wav",
+    "speaker_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/376eab70afdb9a0ac74e.wav",
+    "accent_reference": "audio/refs/70c2f3d010ce240b4d21.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/a3b0e055ea803b56.wav",
+      "accentbox": "audio/systems/accentbox/a3b0e055ea803b56.wav",
+      "dart": "audio/systems/dart/a3b0e055ea803b56.wav",
+      "ours": "audio/systems/ours/a3b0e055ea803b56.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "seen_in_accent__tgt-Henan__src-Henan__spk-274__08__G0001_S0003_0_SPK002_715-01_716-26",
+    "category": "seen_in_accent",
+    "target_accent": "Henan",
+    "source_accent": "Henan",
+    "speaker_id": 274,
+    "text": "胡 辣 汤 嘛 对 不 对",
+    "phones": "sil h u2 l a4 t ang1 m a5 d ui4 b u2 d ui4 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Mandarin_Heavy_Accent_Conversational_Speech_Corpus/wav_16k/G0028_S0001_0_SPK015_474.77_475.69.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Zhengzhou_Dialect_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G0011/G0011_0_S0025.wav",
+    "speaker_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/7a45b56b2735a6c5df3a.wav",
+    "accent_reference": "audio/refs/4d91fee36b3305b85c89.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/5932827f71b46c1a.wav",
+      "accentbox": "audio/systems/accentbox/5932827f71b46c1a.wav",
+      "dart": "audio/systems/dart/5932827f71b46c1a.wav",
+      "ours": "audio/systems/ours/5932827f71b46c1a.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_in_accent__tgt-Henan__src-Henan__spk-387__10__A0001_S006_0_G0002_882-443_885-419",
+    "category": "unseen_in_accent",
+    "target_accent": "Henan",
+    "source_accent": "Henan",
+    "speaker_id": 387,
+    "text": "你 混 得 特 别 差 这 一 帮 子 人 还 孤 立 你",
+    "phones": "sil n i3 h un4 d e5 t e4 b ie2 ch a1 zh e4 i4 b ang1 z iy5 r en2 h ai2 g u1 l i4 n i3 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Zhengzhou_Dialect_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G1195/G1195_0_S0527.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Zhengzhou_Dialect_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G1195/G1195_0_S0018.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/e7e4af162e8d6d78e076.wav",
+    "accent_reference": "audio/refs/308583e2d2f9b3e4b967.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/de0339cdbe6e139a.wav",
+      "accentbox": "audio/systems/accentbox/de0339cdbe6e139a.wav",
+      "dart": "audio/systems/dart/de0339cdbe6e139a.wav",
+      "ours": "audio/systems/ours/de0339cdbe6e139a.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "seen_in_accent__tgt-Wuhan__src-Wuhan__spk-322__02__G0007_1_S0077",
+    "category": "seen_in_accent",
+    "target_accent": "Wuhan",
+    "source_accent": "Wuhan",
+    "speaker_id": 322,
+    "text": "如 何 删 除 多 余 的 还 原 点",
+    "phones": "sil r u2 h e2 sh an1 ch u2 d uo1 v2 d e5 h uan2 van2 d ian3 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Wuhan_Dialect_Scripted_Speech_Corpus/WAV/G0575/G0575_1_S0472.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Wuhan_Dialect_Scripted_Speech_Corpus/WAV/G0576/G0576_1_S0302.wav",
+    "speaker_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/d234ecbb42c6515c1562.wav",
+    "accent_reference": "audio/refs/5ca991149fae2d39dbd0.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/2ce1d43e50d6724c.wav",
+      "accentbox": "audio/systems/accentbox/2ce1d43e50d6724c.wav",
+      "dart": "audio/systems/dart/2ce1d43e50d6724c.wav",
+      "ours": "audio/systems/ours/2ce1d43e50d6724c.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "seen_in_accent__tgt-Wuhan__src-Wuhan__spk-319__05__G0007_1_S0417",
+    "category": "seen_in_accent",
+    "target_accent": "Wuhan",
+    "source_accent": "Wuhan",
+    "speaker_id": 319,
+    "text": "白 羊 座 与 天 秤 座 能 在 一 起 吗",
+    "phones": "sil b ai2 iang2 z uo4 v3 t ian1 ch eng4 z uo4 n eng2 z ai4 i4 q i3 m a5 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Wuhan_Dialect_Scripted_Speech_Corpus/WAV/G0009/G0009_1_S0394.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Wuhan_Dialect_Scripted_Speech_Corpus/WAV/G0011/G0011_1_S0407.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/07849941f71e5e6e6a34.wav",
+    "accent_reference": "audio/refs/be6c1f29aa516f19f864.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/fce39f2bfcd15047.wav",
+      "accentbox": "audio/systems/accentbox/fce39f2bfcd15047.wav",
+      "dart": "audio/systems/dart/fce39f2bfcd15047.wav",
+      "ours": "audio/systems/ours/fce39f2bfcd15047.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "seen_in_accent__tgt-Tianjin__src-Tianjin__spk-329__03__A0004_S003_0_G0004_1159-789_1161-849",
+    "category": "seen_in_accent",
+    "target_accent": "Tianjin",
+    "source_accent": "Tianjin",
+    "speaker_id": 329,
+    "text": "对 没 错 你 可 以 看 韩 国 那 边",
+    "phones": "sil d ui4 m ei2 c uo4 n i3 k e3 i3 k an4 h an2 g uo2 n a4 b ian1 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Tianjin_Dialect_Conversational_Speech_Corpus/wav_16k/A0004_S002_0_G0003_11.75_12.579.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Tianjin_Dialect_Conversational_Speech_Corpus/wav_16k/A0004_S004_0_G0004_492.979_496.749.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/1fb38ad7d89946e0f12b.wav",
+    "accent_reference": "audio/refs/0b06206941579f1e3c33.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/5e515d854ccee622.wav",
+      "accentbox": "audio/systems/accentbox/5e515d854ccee622.wav",
+      "dart": "audio/systems/dart/5e515d854ccee622.wav",
+      "ours": "audio/systems/ours/5e515d854ccee622.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "seen_in_accent__tgt-Tianjin__src-Tianjin__spk-329__06__A0005_S012_0_G0006_1143-5_1146-819",
+    "category": "seen_in_accent",
+    "target_accent": "Tianjin",
+    "source_accent": "Tianjin",
+    "speaker_id": 329,
+    "text": "美 化 天 津 对 不 对 盖 的 高 楼 大 厦",
+    "phones": "sil m ei3 h ua4 t ian1 j in1 d ui4 b u2 d ui4 g ai4 d e5 g ao1 l ou2 d a4 x ia4 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Tianjin_Dialect_Conversational_Speech_Corpus/wav_16k/A0004_S002_0_G0003_11.75_12.579.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Tianjin_Dialect_Conversational_Speech_Corpus/wav_16k/A0005_S017_0_G0005_670.904_677.021.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/1fb38ad7d89946e0f12b.wav",
+    "accent_reference": "audio/refs/c9959770675734b579f4.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/e8047343d79a1e48.wav",
+      "accentbox": "audio/systems/accentbox/e8047343d79a1e48.wav",
+      "dart": "audio/systems/dart/e8047343d79a1e48.wav",
+      "ours": "audio/systems/ours/e8047343d79a1e48.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_in_accent__tgt-Tianjin__src-Tianjin__spk-391__02__A0004_S004_0_G0004_35-9_37-63",
+    "category": "unseen_in_accent",
+    "target_accent": "Tianjin",
+    "source_accent": "Tianjin",
+    "speaker_id": 391,
+    "text": "旅 馆 住 完 之 后",
+    "phones": "sil l v3 g uan3 zh u4 uan2 zh ix1 h ou4 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Tianjin_Dialect_Conversational_Speech_Corpus/wav_16k/A0004_S003_0_G0004_645.26_646.21.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Tianjin_Dialect_Conversational_Speech_Corpus/wav_16k/A0005_S012_0_G0005_658.489_662.798.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/1b84a0466c5ee36db817.wav",
+    "accent_reference": "audio/refs/a17df3b3dd6ec2cffc6f.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/b63dd0394dad0ffe.wav",
+      "accentbox": "audio/systems/accentbox/b63dd0394dad0ffe.wav",
+      "dart": "audio/systems/dart/b63dd0394dad0ffe.wav",
+      "ours": "audio/systems/ours/b63dd0394dad0ffe.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_in_accent__tgt-Tianjin__src-Tianjin__spk-391__05__A0004_S004_0_G0004_20-809_22-659",
+    "category": "unseen_in_accent",
+    "target_accent": "Tianjin",
+    "source_accent": "Tianjin",
+    "speaker_id": 391,
+    "text": "蓟 县 啊 什 么 的 是 吧",
+    "phones": "sil j i4 x ian4 a5 sh en2 m e5 d e5 sh ix4 b a5 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Tianjin_Dialect_Conversational_Speech_Corpus/wav_16k/A0004_S003_0_G0004_645.26_646.21.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Tianjin_Dialect_Conversational_Speech_Corpus/wav_16k/A0005_S016_0_G0005_925.189_927.459.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/1b84a0466c5ee36db817.wav",
+    "accent_reference": "audio/refs/66a9dd06ca25c1ee0ab9.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/c4ea7aa57e80e092.wav",
+      "accentbox": "audio/systems/accentbox/c4ea7aa57e80e092.wav",
+      "dart": "audio/systems/dart/c4ea7aa57e80e092.wav",
+      "ours": "audio/systems/ours/c4ea7aa57e80e092.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_in_accent__tgt-Tianjin__src-Tianjin__spk-391__06__A0004_S002_0_G0004_1125-047_1127-138",
+    "category": "unseen_in_accent",
+    "target_accent": "Tianjin",
+    "source_accent": "Tianjin",
+    "speaker_id": 391,
+    "text": "就 这 个 孩 子 妈 妈 家 长",
+    "phones": "sil j iu4 zh e4 g e5 h ai2 z iy5 m a1 m a5 j ia1 zh ang3 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Tianjin_Dialect_Conversational_Speech_Corpus/wav_16k/A0004_S003_0_G0004_645.26_646.21.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Tianjin_Dialect_Conversational_Speech_Corpus/wav_16k/A0004_S004_0_G0003_160.85_164.259.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/1b84a0466c5ee36db817.wav",
+    "accent_reference": "audio/refs/03f5d7a1ca223392052e.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/908c7483e0b17a67.wav",
+      "accentbox": "audio/systems/accentbox/908c7483e0b17a67.wav",
+      "dart": "audio/systems/dart/908c7483e0b17a67.wav",
+      "ours": "audio/systems/ours/908c7483e0b17a67.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_in_accent__tgt-Tianjin__src-Tianjin__spk-391__07__A0004_S002_0_G0004_124-159_127-479",
+    "category": "unseen_in_accent",
+    "target_accent": "Tianjin",
+    "source_accent": "Tianjin",
+    "speaker_id": 391,
+    "text": "哎 呀 挺 不 好 教 育 的 而 且 你 看 现 在 学 校",
+    "phones": "sil ai1 ia1 t ing3 b u4 h ao3 j iao4 v4 d e5 er2 q ie3 n i3 k an4 x ian4 z ai4 x ve2 x iao4 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Tianjin_Dialect_Conversational_Speech_Corpus/wav_16k/A0004_S003_0_G0004_645.26_646.21.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Tianjin_Dialect_Conversational_Speech_Corpus/wav_16k/A0005_S017_0_G0006_50.419_52.509.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/1b84a0466c5ee36db817.wav",
+    "accent_reference": "audio/refs/cdf7088e315d75e9cff8.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/6983ee563a0095c6.wav",
+      "accentbox": "audio/systems/accentbox/6983ee563a0095c6.wav",
+      "dart": "audio/systems/dart/6983ee563a0095c6.wav",
+      "ours": "audio/systems/ours/6983ee563a0095c6.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_cross_accent__tgt-Guangdong__src-Sichuan__spk-375__09__G0010_1_S0099",
+    "category": "unseen_cross_accent",
+    "target_accent": "Guangdong",
+    "source_accent": "Sichuan",
+    "speaker_id": 375,
+    "text": "限 时 嗰 时 提 醒 点 样 打 开",
+    "phones": "sil x ian4 sh ix2 g e3 sh ix2 t i2 x ing3 d ian3 iang4 d a3 k ai1 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Mandarin_Heavy_Accent_Conversational_Speech_Corpus/wav_16k/G0013_S0003_0_SPK021_1580.45_1581.31.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Guangzhou_Cantonese_Scripted_Speech_Corpus_in_Vehicle/wav_16k/G0005/G0005_1_S0378.wav",
+    "speaker_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/0ff77a4068663d490fc0.wav",
+    "accent_reference": "audio/refs/b974987067c3bdee191f.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/3300cf547336311b.wav",
+      "accentbox": "audio/systems/accentbox/3300cf547336311b.wav",
+      "dart": "audio/systems/dart/3300cf547336311b.wav",
+      "ours": "audio/systems/ours/3300cf547336311b.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_cross_accent__tgt-Shanghai__src-Sichuan__spk-375__01__A1175_S0007_0_G1349_G1350_668-15_671-47",
+    "category": "unseen_cross_accent",
+    "target_accent": "Shanghai",
+    "source_accent": "Sichuan",
+    "speaker_id": 375,
+    "text": "母 亲 节 咯 撒 呃 咯 伊 侪 会 的 想 得 到 呃",
+    "phones": "sil m u3 q in1 j ie2 l o5 s a3 e4 l o5 i1 ch ai2 h ui4 d e5 x iang3 d e5 d ao4 e4 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Mandarin_Heavy_Accent_Conversational_Speech_Corpus/wav_16k/G0044_S0003_0_SPK021_108.65_109.69.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Shanghai_Dialect_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G0105/G0105_0_S0343.wav",
+    "speaker_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/61708462a5b0e0cebacb.wav",
+    "accent_reference": "audio/refs/fedf74481ba0d3e5220a.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/d4678f2a280db445.wav",
+      "accentbox": "audio/systems/accentbox/d4678f2a280db445.wav",
+      "dart": "audio/systems/dart/d4678f2a280db445.wav",
+      "ours": "audio/systems/ours/d4678f2a280db445.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_cross_accent__tgt-Shanghai__src-Sichuan__spk-375__02__A0009_S0005_0_G0017_G0018_1354-756_1359-04",
+    "category": "unseen_cross_accent",
+    "target_accent": "Shanghai",
+    "source_accent": "Sichuan",
+    "speaker_id": 375,
+    "text": "钻 钻 到 搿 烤 麸 里 相 去 辣 阿 拉 讲 起 来 是 吃 进 去 吃 进 去 辣",
+    "phones": "sil z uan1 z uan1 d ao4 g e2 k ao3 f u1 l i3 x iang1 q v4 l a4 a1 l a1 j iang3 q i3 l ai2 sh ix4 ch ix1 j in4 q v4 ch ix1 j in4 q v4 l a4 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Mandarin_Heavy_Accent_Conversational_Speech_Corpus/wav_16k/G0044_S0003_0_SPK021_108.65_109.69.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Shanghai_Dialect_Conversational_Speech_Corpus/wav_16k/A0002_S0003_0_G0003_G0004_1021.19_1025.26.wav",
+    "speaker_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "unknown",
+      "method": "f0_ambiguous",
+      "confidence": 0,
+      "median_f0": 154.47991322193087
+    },
+    "speaker_reference": "audio/refs/61708462a5b0e0cebacb.wav",
+    "accent_reference": "audio/refs/da84d5bd026ef85790b4.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/6122bd450908e316.wav",
+      "accentbox": "audio/systems/accentbox/6122bd450908e316.wav",
+      "dart": "audio/systems/dart/6122bd450908e316.wav",
+      "ours": "audio/systems/ours/6122bd450908e316.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_cross_accent__tgt-Shanghai__src-Sichuan__spk-375__09__A0038_S0006_0_G0075_G0076_184-34_186-13",
+    "category": "unseen_cross_accent",
+    "target_accent": "Shanghai",
+    "source_accent": "Sichuan",
+    "speaker_id": 375,
+    "text": "甜 酸 甜 呃 少",
+    "phones": "sil t ian2 s uan1 t ian2 e4 sh ao3 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Mandarin_Heavy_Accent_Conversational_Speech_Corpus/wav_16k/G0044_S0003_0_SPK021_108.65_109.69.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Shanghai_Dialect_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G0105/G0105_0_S0319.wav",
+    "speaker_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/61708462a5b0e0cebacb.wav",
+    "accent_reference": "audio/refs/e906928a618a4226433c.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/0ec09fb9eb551bb6.wav",
+      "accentbox": "audio/systems/accentbox/0ec09fb9eb551bb6.wav",
+      "dart": "audio/systems/dart/0ec09fb9eb551bb6.wav",
+      "ours": "audio/systems/ours/0ec09fb9eb551bb6.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_cross_accent__tgt-Tianjin__src-Sichuan__spk-375__04__A0004_S003_0_G0004_1017-289_1020-159",
+    "category": "unseen_cross_accent",
+    "target_accent": "Tianjin",
+    "source_accent": "Sichuan",
+    "speaker_id": 375,
+    "text": "你 知 道 吗 比 咱 们 医 院 最 少 大 四 倍",
+    "phones": "sil n i3 zh ix1 d ao4 m a5 b i3 z an2 m en5 i1 van4 z ui4 sh ao3 d a4 s iy4 b ei4 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Mandarin_Heavy_Accent_Conversational_Speech_Corpus/wav_16k/G0032_S0001_0_SPK021_84.95_86.41.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Tianjin_Dialect_Conversational_Speech_Corpus/wav_16k/A0003_S006_0_G0002_603.138_605.53.wav",
+    "speaker_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/35a5b9b9b34ba8f12a71.wav",
+    "accent_reference": "audio/refs/fa9f566ac8d52b6ddb16.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/e8f951c9ef2483e2.wav",
+      "accentbox": "audio/systems/accentbox/e8f951c9ef2483e2.wav",
+      "dart": "audio/systems/dart/e8f951c9ef2483e2.wav",
+      "ours": "audio/systems/ours/e8f951c9ef2483e2.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_cross_accent__tgt-Henan__src-Sichuan__spk-376__10__A0001_S002_0_G0002_414-18_416-188",
+    "category": "unseen_cross_accent",
+    "target_accent": "Henan",
+    "source_accent": "Sichuan",
+    "speaker_id": 376,
+    "text": "就 这 好 好 使 就 行",
+    "phones": "sil j iu4 zh e4 h ao3 h ao3 sh ix3 j iu4 x ing2 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Mandarin_Heavy_Accent_Conversational_Speech_Corpus/wav_16k/G0055_S0002_0_SPK030_641.51_647.65.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Zhengzhou_Dialect_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G0019/G0019_0_S0040.wav",
+    "speaker_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "male",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/023df012bae0287ccaa0.wav",
+    "accent_reference": "audio/refs/70cd61c6fc9a3c16f8e3.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/2f636bfd82539c15.wav",
+      "accentbox": "audio/systems/accentbox/2f636bfd82539c15.wav",
+      "dart": "audio/systems/dart/2f636bfd82539c15.wav",
+      "ours": "audio/systems/ours/2f636bfd82539c15.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_cross_accent__tgt-Wuhan__src-Henan__spk-387__01__G0007_1_S0526",
+    "category": "unseen_cross_accent",
+    "target_accent": "Wuhan",
+    "source_accent": "Henan",
+    "speaker_id": 387,
+    "text": "自 然 界 里 头 么 斯 东 西 最 宝 贵",
+    "phones": "sil z iy4 r an2 j ie4 l i3 t ou5 m o2 s iy1 d ong1 x i5 z ui4 b ao3 g ui4 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Zhengzhou_Dialect_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G1195/G1195_0_S0203.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Wuhan_Dialect_Scripted_Speech_Corpus/WAV/G0007/G0007_1_S0338.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/f721e474622c23149944.wav",
+    "accent_reference": "audio/refs/c59218687184bed0c56b.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/fb8f2a95b7f10d92.wav",
+      "accentbox": "audio/systems/accentbox/fb8f2a95b7f10d92.wav",
+      "dart": "audio/systems/dart/fb8f2a95b7f10d92.wav",
+      "ours": "audio/systems/ours/fb8f2a95b7f10d92.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_cross_accent__tgt-singapore__src-Henan__spk-387__01__A0002_S004_0_G0003_segment_0265",
+    "category": "unseen_cross_accent",
+    "target_accent": "singapore",
+    "source_accent": "Henan",
+    "speaker_id": 387,
+    "text": "漂 亮 女 孩 子",
+    "phones": "sil p iao4 l iang4 n v3 h ai2 z iy5 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Zhengzhou_Dialect_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G1195/G1195_0_S0094.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/magichub_singapore/wav_16k/G0001/A0001_S003_0_G0001_segment_0101.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/bcb7ea257a9d3f71616f.wav",
+    "accent_reference": "audio/refs/7814da035593b0003a5d.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/6890654765f2754f.wav",
+      "accentbox": "audio/systems/accentbox/6890654765f2754f.wav",
+      "dart": "audio/systems/dart/6890654765f2754f.wav",
+      "ours": "audio/systems/ours/6890654765f2754f.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_cross_accent__tgt-singapore__src-Henan__spk-387__07__A0002_S001_0_G0003_segment_0022",
+    "category": "unseen_cross_accent",
+    "target_accent": "singapore",
+    "source_accent": "Henan",
+    "speaker_id": 387,
+    "text": "一 些 呃 主 题 的 电 影 很 像 天 龙 八 部 啊 或 者",
+    "phones": "sil i4 x ie1 e4 zh u3 t i2 d e5 d ian4 ing3 h en3 x iang4 t ian1 l ong2 b a1 b u4 a5 h uo4 zh e3 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Zhengzhou_Dialect_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G1195/G1195_0_S0094.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/magichub_singapore/wav_16k/G0002/A0001_S003_0_G0002_segment_0005.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/bcb7ea257a9d3f71616f.wav",
+    "accent_reference": "audio/refs/4e6ebd5b8d0c94a363ec.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/ef076982ea2c3d3c.wav",
+      "accentbox": "audio/systems/accentbox/ef076982ea2c3d3c.wav",
+      "dart": "audio/systems/dart/ef076982ea2c3d3c.wav",
+      "ours": "audio/systems/ours/ef076982ea2c3d3c.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_cross_accent__tgt-Henan__src-Wuhan__spk-390__02__A0001_S004_0_G0002_942-608_948-28",
+    "category": "unseen_cross_accent",
+    "target_accent": "Henan",
+    "source_accent": "Wuhan",
+    "speaker_id": 390,
+    "text": "唉 俺 家 还 可 以 俺 家 俺 爷 一 直 是 也 是 退 休 干 部",
+    "phones": "sil ai1 an3 j ia1 h ai2 k e3 i3 an3 j ia1 an3 ie2 i4 zh ix2 sh ix4 ie3 sh ix4 t ui4 x iu1 g an1 b u4 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Wuhan_Dialect_Scripted_Speech_Corpus/WAV/G0007/G0007_1_S0527.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Zhengzhou_Dialect_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G1195/G1195_0_S0453.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/6048c58d2169b7bea8ee.wav",
+    "accent_reference": "audio/refs/ca408223ba19099a870b.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/39e54cc1ce2cc4fe.wav",
+      "accentbox": "audio/systems/accentbox/39e54cc1ce2cc4fe.wav",
+      "dart": "audio/systems/dart/39e54cc1ce2cc4fe.wav",
+      "ours": "audio/systems/ours/39e54cc1ce2cc4fe.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_cross_accent__tgt-Sichuan__src-Tianjin__spk-391__01__G0051_S0002_0_SPK009_530-99_535-938",
+    "category": "unseen_cross_accent",
+    "target_accent": "Sichuan",
+    "source_accent": "Tianjin",
+    "speaker_id": 391,
+    "text": "那 还 挺 好 的 像 像 大 理 啊 丽 江 不 是 都 上 了 通 报 的",
+    "phones": "sil n a4 h ai2 t ing3 h ao3 d e5 x iang4 x iang4 d a4 l i3 a5 l i4 j iang1 b u2 sh ix4 d ou1 sh ang4 l e5 t ong1 b ao4 d e5 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Tianjin_Dialect_Conversational_Speech_Corpus/wav_16k/A0004_S004_0_G0004_509.99_511.957.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Sichuan_Dialect_Conversational_Speech_Corpus/wav_16k/A0622_S0001_0_G1257_G1258_1492.01_1497.151.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/0c0a8301c53f6bcee7bb.wav",
+    "accent_reference": "audio/refs/aa2e9470935d62cb1172.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/835502d55b65ef2f.wav",
+      "accentbox": "audio/systems/accentbox/835502d55b65ef2f.wav",
+      "dart": "audio/systems/dart/835502d55b65ef2f.wav",
+      "ours": "audio/systems/ours/835502d55b65ef2f.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_cross_accent__tgt-Guangdong__src-Tianjin__spk-391__09__G0010_1_S0110",
+    "category": "unseen_cross_accent",
+    "target_accent": "Guangdong",
+    "source_accent": "Tianjin",
+    "speaker_id": 391,
+    "text": "唔 该 导 航 竹 林 路 一 零 一 号",
+    "phones": "sil u2 g ai1 d ao3 h ang2 zh u2 l in2 l u4 i1 l ing2 i1 h ao4 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Tianjin_Dialect_Conversational_Speech_Corpus/wav_16k/A0004_S002_0_G0004_1105.518_1106.199.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Guangzhou_Cantonese_Scripted_Speech_Corpus_in_Vehicle/wav_16k/G0010/G0010_1_S0384.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/bbbf2b8263a4edd366cc.wav",
+    "accent_reference": "audio/refs/7430c2a2b360cf7de5c4.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/84eac9acd6ae45a1.wav",
+      "accentbox": "audio/systems/accentbox/84eac9acd6ae45a1.wav",
+      "dart": "audio/systems/dart/84eac9acd6ae45a1.wav",
+      "ours": "audio/systems/ours/84eac9acd6ae45a1.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_cross_accent__tgt-Henan__src-Tianjin__spk-391__04__A0001_S005_0_G0001_581-648_583-868",
+    "category": "unseen_cross_accent",
+    "target_accent": "Henan",
+    "source_accent": "Tianjin",
+    "speaker_id": 391,
+    "text": "我 肯 定 不 能 接 受",
+    "phones": "sil uo3 k en3 d ing4 b u4 n eng2 j ie1 sh ou4 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Tianjin_Dialect_Conversational_Speech_Corpus/wav_16k/A0004_S004_0_G0004_481.639_483.129.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Zhengzhou_Dialect_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G1195/G1195_0_S0121.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/e9ad8a69ea369a8d10b7.wav",
+    "accent_reference": "audio/refs/a4f6fe2bdc740e31586d.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/1522b8b3ca558b4d.wav",
+      "accentbox": "audio/systems/accentbox/1522b8b3ca558b4d.wav",
+      "dart": "audio/systems/dart/1522b8b3ca558b4d.wav",
+      "ours": "audio/systems/ours/1522b8b3ca558b4d.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_cross_accent__tgt-Shanghai__src-Tianjin__spk-391__02__G0009_0_S0154",
+    "category": "unseen_cross_accent",
+    "target_accent": "Shanghai",
+    "source_accent": "Tianjin",
+    "speaker_id": 391,
+    "text": "侬 辣 海 组 撒 伐 讲 闲 话 算 了",
+    "phones": "sil n ong2 l a4 h ai3 z u3 s a1 f a1 j iang3 x ian2 h ua4 s uan4 l e5 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Tianjin_Dialect_Conversational_Speech_Corpus/wav_16k/A0004_S002_0_G0004_862.339_863.559.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Shanghai_Dialect_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G0005/G0005_0_S0046.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/73a1d4b0e58ae3d28f98.wav",
+    "accent_reference": "audio/refs/61df52aeeec52ee02536.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/b60c24b87d0a7ff6.wav",
+      "accentbox": "audio/systems/accentbox/b60c24b87d0a7ff6.wav",
+      "dart": "audio/systems/dart/b60c24b87d0a7ff6.wav",
+      "ours": "audio/systems/ours/b60c24b87d0a7ff6.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_cross_accent__tgt-Shanghai__src-Tianjin__spk-391__08__G0006_0_S0058",
+    "category": "unseen_cross_accent",
+    "target_accent": "Shanghai",
+    "source_accent": "Tianjin",
+    "speaker_id": 391,
+    "text": "吾 伐 再 啊 伐 求 拧 任 何 拧 了 包 括 侬",
+    "phones": "sil u2 f a1 z ai4 a5 f a1 q iu2 n ing3 r en4 h e2 n ing3 l e5 b ao1 g ua1 n ong2 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Tianjin_Dialect_Conversational_Speech_Corpus/wav_16k/A0004_S002_0_G0004_862.339_863.559.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Shanghai_Dialect_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G0004/G0004_0_S0387.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/73a1d4b0e58ae3d28f98.wav",
+    "accent_reference": "audio/refs/d4f5f95c0e928d101453.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/1061869f32099884.wav",
+      "accentbox": "audio/systems/accentbox/1061869f32099884.wav",
+      "dart": "audio/systems/dart/1061869f32099884.wav",
+      "ours": "audio/systems/ours/1061869f32099884.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_cross_accent__tgt-Sichuan__src-singapore__spk-392__09__G0013_S0003_0_SPK021_1655-42_1662-31",
+    "category": "unseen_cross_accent",
+    "target_accent": "Sichuan",
+    "source_accent": "singapore",
+    "speaker_id": 392,
+    "text": "一 个 又 一 个 的 奇 迹 在 我 们 的 生 活 里 面 出 出 现 我 们 真 的 很 幸 运",
+    "phones": "sil i2 g e5 iu4 i2 g e5 d e5 q i2 j i1 z ai4 uo3 m en5 d e5 sh eng1 h uo2 l i3 m ian4 ch u1 ch u1 x ian4 uo3 m en5 zh en1 d e5 h en3 x ing4 vn4 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/magichub_singapore/wav_16k/G0001/A0001_S005_0_G0001_segment_0213.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Sichuan_Dialect_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G0008/G0008_0026.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "f0",
+      "confidence": 0.99,
+      "median_f0": 218.30353655406356
+    },
+    "speaker_reference": "audio/refs/3394aedfef6dcd6d87c8.wav",
+    "accent_reference": "audio/refs/59d7b7d72171110c79db.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/0d6b533fdd31d150.wav",
+      "accentbox": "audio/systems/accentbox/0d6b533fdd31d150.wav",
+      "dart": "audio/systems/dart/0d6b533fdd31d150.wav",
+      "ours": "audio/systems/ours/0d6b533fdd31d150.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_cross_accent__tgt-Guangdong__src-singapore__spk-392__07__G0008_1_S0089",
+    "category": "unseen_cross_accent",
+    "target_accent": "Guangdong",
+    "source_accent": "singapore",
+    "speaker_id": 392,
+    "text": "合 埋 个 天 窗 帘 先",
+    "phones": "sil h e2 m ai2 g e5 t ian1 ch uang1 l ian2 x ian1 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/magichub_singapore/wav_16k/G0001/A0001_S005_0_G0001_segment_0213.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Guangzhou_Cantonese_Scripted_Speech_Corpus_Daily_Use_Sentence/WAV/G0052/G0052_S0130.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/3394aedfef6dcd6d87c8.wav",
+    "accent_reference": "audio/refs/8a576fad4e79e7ae5e61.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/528aaa4ebb30925c.wav",
+      "accentbox": "audio/systems/accentbox/528aaa4ebb30925c.wav",
+      "dart": "audio/systems/dart/528aaa4ebb30925c.wav",
+      "ours": "audio/systems/ours/528aaa4ebb30925c.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_cross_accent__tgt-Guangdong__src-singapore__spk-392__10__G0010_1_S0194",
+    "category": "unseen_cross_accent",
+    "target_accent": "Guangdong",
+    "source_accent": "singapore",
+    "speaker_id": 392,
+    "text": "想 听 收 藏 嘅 歌 播 啦",
+    "phones": "sil x iang3 t ing1 sh ou1 c ang2 k ai3 g e1 b o4 l a5 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/magichub_singapore/wav_16k/G0001/A0001_S005_0_G0001_segment_0213.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Mandarin_Heavy_Accent_Conversational_Speech_Corpus/wav_16k/G0007_S0002_0_SPK034_408.23_414.468.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/3394aedfef6dcd6d87c8.wav",
+    "accent_reference": "audio/refs/2556a9081234ecc1a82b.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/f43f5bb916038e3a.wav",
+      "accentbox": "audio/systems/accentbox/f43f5bb916038e3a.wav",
+      "dart": "audio/systems/dart/f43f5bb916038e3a.wav",
+      "ours": "audio/systems/ours/f43f5bb916038e3a.wav"
+    },
+    "decision": "keep"
+  },
+  {
+    "id": "unseen_cross_accent__tgt-Tianjin__src-singapore__spk-392__09__A0004_S002_0_G0004_1010-509_1011-997",
+    "category": "unseen_cross_accent",
+    "target_accent": "Tianjin",
+    "source_accent": "singapore",
+    "speaker_id": 392,
+    "text": "谁 都 能 闻 出 来 对 吗",
+    "phones": "sil sh ei2 d ou1 n eng2 un2 ch u1 l ai2 d ui4 m a5 sil",
+    "speaker_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/magichub_singapore/wav_16k/G0001/A0001_S001_0_G0001_segment_0012.wav",
+    "accent_reference_source": "/data2/xintong/mandarin_accent/magichub_multiaccent/Tianjin_Dialect_Conversational_Speech_Corpus/wav_16k/A0004_S004_0_G0003_1143.65_1148.529.wav",
+    "speaker_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "accent_gender": {
+      "gender": "female",
+      "method": "metadata",
+      "confidence": 1,
+      "median_f0": null
+    },
+    "speaker_reference": "audio/refs/f6a628847fe01121ab52.wav",
+    "accent_reference": "audio/refs/42657cfcc461269083a2.wav",
+    "systems": {
+      "diffusion_TTS": "audio/systems/diffusion_TTS/0580003c7a8a13f3.wav",
+      "accentbox": "audio/systems/accentbox/0580003c7a8a13f3.wav",
+      "dart": "audio/systems/dart/0580003c7a8a13f3.wav",
+      "ours": "audio/systems/ours/0580003c7a8a13f3.wav"
+    },
+    "decision": "keep"
+  }
+]
