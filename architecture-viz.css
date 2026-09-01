@@ -1,0 +1,40 @@
+.architecture-hint { margin:-10px 0 18px; color:#777; font-size:13px; }
+.architecture-map { display:grid; gap:12px; }
+.arch-top-grid { display:grid; grid-template-columns:1.8fr 1fr; gap:12px; }
+.arch-box { padding:16px; border:1px dashed #999; border-radius:16px; background:#fff; }
+.arch-title { display:block; margin-bottom:15px; text-align:center; font:600 14px Manrope; }
+.arch-row,.overall-flow,.condition-lane,.cln-flow { display:flex; align-items:center; gap:7px; }
+.arch-row>i,.overall-flow>i,.condition-lane>i { position:relative; flex:1; min-width:12px; height:2px; overflow:hidden; background:#c9c9c9; }
+.arch-row>i::after,.overall-flow>i::after,.condition-lane>i::after { content:""; position:absolute; width:45%; height:100%; background:#555; animation:path-flow 1.7s linear infinite; }
+@keyframes path-flow { from{transform:translateX(-110%)} to{transform:translateX(240%)} }
+.arch-node { position:relative; flex:0 1 auto; min-width:74px; padding:12px 10px; border:1px solid #aaa; border-radius:10px; background:#fafafa; text-align:center; font:600 12px/1.3 Manrope; box-shadow:0 3px 8px rgba(0,0,0,.04); cursor:default; transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease; }
+.arch-node span { font-weight:500; color:#777; }
+.arch-node:hover { z-index:10; transform:translateY(-8px) scale(1.04); border-color:#363636; box-shadow:0 15px 28px rgba(0,0,0,.15); }
+.arch-node::after { content:attr(data-tip); position:absolute; z-index:20; left:50%; bottom:calc(100% + 11px); width:210px; padding:9px 11px; border-radius:9px; background:#363636; color:#fff; font:400 11px/1.4 Manrope; text-align:left; opacity:0; pointer-events:none; transform:translate(-50%,7px); transition:.2s; }
+.arch-node:hover::after { opacity:1; transform:translate(-50%,0); }
+.prompt-node { background:#f3f3f3; }
+.accent-node { background:#f0f0f0; border-color:#777; }
+.speaker-node { background:#e8e8e8; border-color:#888; }
+.diffusion-node { border-style:dashed; }
+.output-node { border-radius:999px; }
+.cln-flow { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+.cln-flow .arch-node:last-child { grid-column:1/-1; margin:auto; min-width:120px; }
+.overall-box { padding-top:13px; }
+.conditioning-lanes { display:flex; justify-content:center; gap:45px; margin-bottom:15px; }
+.condition-lane { width:min(360px,44%); }
+.condition-lane b { font:600 11px Manrope; white-space:nowrap; }
+.condition-lane em { font:500 13px serif; }
+.overall-flow .arch-node { min-width:70px; padding:14px 8px; }
+.overall-flow .arch-node::after { width:190px; }
+.viz-panel[data-panel="objective"],.viz-panel[data-panel="subjective"] { min-height:430px; }
+@media(max-width:1000px){.arch-top-grid{grid-template-columns:1fr}.arch-row,.overall-flow{overflow-x:auto;padding:25px 5px 18px}.arch-row>i,.overall-flow>i{min-width:24px}.overall-flow .arch-node,.arch-row .arch-node{flex:0 0 92px}.conditioning-lanes{justify-content:flex-start;overflow-x:auto}.condition-lane{flex:0 0 340px}}
+@media(max-width:560px){.arch-box{padding:12px}.arch-node::after{display:none}.conditioning-lanes{display:grid;gap:8px}.condition-lane{width:auto;min-width:300px}.architecture-hint{margin-top:-8px}}
+
+.figure-pieces { display:grid; grid-template-columns:1.92fr 1fr; gap:12px; align-items:stretch; }
+.figure-piece { position:relative; min-width:0; margin:0; border-radius:14px; background:#fff; transition:transform .25s ease,box-shadow .25s ease; }
+.figure-piece:hover { z-index:4; transform:translateY(-8px) scale(1.012); box-shadow:0 18px 36px rgba(0,0,0,.16); }
+.figure-piece img { display:block; width:100%; height:100%; object-fit:fill; border-radius:14px; }
+.figure-piece figcaption { position:absolute; left:12px; bottom:10px; padding:5px 8px; border-radius:6px; background:rgba(54,54,54,.88); color:#fff; font:600 10px Manrope; letter-spacing:.04em; opacity:0; transform:translateY(4px); transition:.2s; }
+.figure-piece:hover figcaption { opacity:1; transform:none; }
+.overall-piece { grid-column:1/-1; }
+@media(max-width:760px){.figure-pieces{grid-template-columns:1fr}.overall-piece{grid-column:auto}.figure-piece img{height:auto;object-fit:contain}}

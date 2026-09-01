@@ -14,13 +14,15 @@
   <link rel="stylesheet" href="environment.css">
   <link rel="stylesheet" href="palette.css">
   <link rel="stylesheet" href="panel-language.css?v=20260901-12">
+  <link rel="stylesheet" href="research-viz.css?v=20260901-3">
+  <link rel="stylesheet" href="architecture-viz.css?v=20260901-2">
 </head>
 <body>
   <nav class="nav" aria-label="Primary navigation">
     <a class="brand" href="#top">ACCENT<span>LAB</span></a>
     <div class="nav-links">
       <a href="#same-speaker">Same speaker</a><a href="#same-accent">Same accent</a>
-      <a href="#cross-accent">Cross-accent</a><a href="#environment">Environment</a><a href="#method">Method</a><a href="#comparisons">Comparisons</a>
+      <a href="#cross-accent">Cross-accent</a><a href="#environment">Environment</a><a href="#comparisons">Comparisons</a>
     </div>
   </nav>
 
@@ -42,6 +44,81 @@
   </header>
 
   <main>
+    <section class="section research-viz" id="research-viz">
+      <p class="kicker">HOW JOYCENT WORKS</p>
+      <h2>Separating accent and speaker<br>throughout synthesis</h2>
+      <p class="lead">Explore how Joycent disentangles its two speech prompts, how it is evaluated, and where its improvements come from.</p>
+      <div class="viz-grid">
+      <div class="viz-panel active" data-panel="pipeline">
+        <h3>Interactive architecture of Joycent</h3>
+        <p class="architecture-hint">Hover over each component to inspect its role.</p>
+        <div class="figure-pieces" aria-label="Interactive original architecture figure of Joycent">
+          <figure class="figure-piece whisaid-piece"><img src="assets/joycent-fig1-whisaid.png" alt="Original WhisAID architecture from Figure 1"><figcaption>WhisAID</figcaption></figure>
+          <figure class="figure-piece cln-piece"><img src="assets/joycent-fig1-cln.png" alt="Original conditional layer normalization architecture from Figure 1"><figcaption>Conditional Layer Norm</figcaption></figure>
+          <figure class="figure-piece overall-piece"><img src="assets/joycent-fig1-overall.png" alt="Original overall Joycent architecture from Figure 1"><figcaption>Overall Architecture of Joycent</figcaption></figure>
+        </div>
+        <!--
+        <div class="architecture-map" aria-label="Interactive architecture of Joycent">
+          <div class="arch-top-grid">
+            <div class="arch-box">
+              <strong class="arch-title">Whisper-based Accent Identification (WhisAID)</strong>
+              <div class="arch-row">
+                <div class="arch-node prompt-node" data-tip="The reference waveform specifying the target accent.">Accent<br>prompt</div><i></i>
+                <div class="arch-node" data-tip="A frozen pretrained Whisper encoder extracts phonetic and linguistic features.">Whisper<br>Encoder</div><i></i>
+                <div class="arch-node" data-tip="Temporal mean pooling produces an utterance-level representation.">Mean<br>Pooling</div><i></i>
+                <div class="arch-node" data-tip="Linear projection, GELU, and layer normalization form the bottleneck accent representation.">Linear<br>GELU · LN</div><i></i>
+                <div class="arch-node split-node" data-tip="The accent head preserves accent information; the gradient-reversed speaker head suppresses speaker leakage.">Accent head<br><span>GRL · Speaker head</span></div>
+              </div>
+            </div>
+            <div class="arch-box cln-box">
+              <strong class="arch-title">Conditional Layer Norm (CLN)</strong>
+              <div class="cln-flow">
+                <div class="arch-node" data-tip="The hidden representation is normalized before conditioning.">Input X<br>→ LN</div>
+                <div class="arch-node" data-tip="The conditioning embedding predicts feature-wise scale γ and bias β.">Condition C<br>→ γ, β</div>
+                <div class="arch-node" data-tip="FiLM applies the learned affine transformation to produce the conditioned representation.">FiLM<br>→ X̃</div>
+              </div>
+            </div>
+          </div>
+          <div class="arch-box overall-box">
+            <strong class="arch-title">Overall Architecture of Joycent</strong>
+            <div class="conditioning-lanes">
+              <div class="condition-lane"><b>Accent prompt</b><i></i><div class="arch-node accent-node" data-tip="WhisAID extracts a speaker-disentangled accent embedding.">WhisAID</div><i></i><em>eₐ</em></div>
+              <div class="condition-lane"><b>Speaker prompt</b><i></i><div class="arch-node speaker-node" data-tip="FACodec supplies an independent timbre representation.">FACodec</div><i></i><em>eₛ</em></div>
+            </div>
+            <div class="overall-flow">
+              <div class="arch-node prompt-node" data-tip="The phoneme sequence provides the linguistic content.">Text</div><i></i>
+              <div class="arch-node" data-tip="Three convolutional layers prepare token-level linguistic features.">PreNet</div><i></i>
+              <div class="arch-node accent-node" data-tip="Accent CLN is introduced early so accent can shape phone realization.">Conformer<br><span>Accent CLN</span></div><i></i>
+              <div class="arch-node" data-tip="Standard Conformer blocks continue linguistic encoding.">Conformer<br>× N</div><i></i>
+              <div class="arch-node speaker-node" data-tip="Speaker CLN is introduced late to preserve the target timbre.">Conformer<br><span>Speaker CLN</span></div><i></i>
+              <div class="arch-node" data-tip="A convolution projects the conditioned encoder representation.">Conv1D</div><i></i>
+              <div class="arch-node" data-tip="The duration predictor and regulator expand tokens into frame-level conditions.">Duration<br>modeling</div><i></i>
+              <div class="arch-node diffusion-node" data-tip="The ODE solver transforms Gaussian noise into a mel-spectrogram through reverse diffusion.">ODE Solver<br><span>Diffusion</span></div><i></i>
+              <div class="arch-node" data-tip="Parallel WaveGAN converts the mel-spectrogram into the output waveform.">Vocoder</div><i></i>
+              <div class="arch-node output-node" data-tip="Speech in the requested accent while preserving the prompted voice.">Speech</div>
+            </div>
+          </div>
+        </div>
+        -->
+      </div>
+
+      <div class="viz-panel" data-panel="objective">
+        <h3>Objective results</h3>
+        <div class="viz-controls"><div id="objective-setting"></div><div id="objective-metric"></div></div>
+        <div class="bar-chart" id="objective-chart"></div>
+        <p class="chart-note" id="objective-note"></p>
+      </div>
+
+      <div class="viz-panel" data-panel="subjective">
+        <h3>Subjective results</h3>
+        <div class="viz-controls"><div id="subjective-metric"></div></div>
+        <div class="bar-chart subjective-chart" id="subjective-chart"></div>
+        <p class="chart-note">Mean listener ratings aggregated across the three synthesis settings.</p>
+      </div>
+
+      </div>
+    </section>
+
     <section class="section tinted" id="same-accent">
       <p class="kicker">01 · SPEAKER CONTROL</p>
       <h2>Generating multiple voices<br>with the same accent</h2>
@@ -104,19 +181,6 @@
       <div class="environment-grid" id="environment-grid"></div>
     </section> -->
 
-    <section class="section method" id="method">
-      <p class="kicker">05 · METHOD</p>
-      <h2>Generating controllable speech<br>from disentangled representations</h2>
-      <p class="lead">Given <strong>text, speaker, and accent conditions</strong>, we study generating <strong>independently controllable accented speech</strong>: accent and speaker information are separated in representation learning and injected at different stages of the text encoder.</p>
-      <div class="io-heading"><span>Input</span><strong>Text · Speaker condition · Accent condition</strong></div>
-      <div class="io-heading output"><span>Output</span><strong>Controllable accented speech</strong></div>
-      <div class="method-placeholder">
-        <div class="diagram-icon">⌁</div>
-        <strong>Method figure placeholder</strong>
-        <span>Replace assets/method-placeholder.svg with your final method figure</span>
-      </div>
-    </section>
-
     <section class="section comparisons" id="comparisons">
       <p class="kicker">06 · MODEL COMPARISONS</p>
       <h2>Comparisons</h2>
@@ -144,5 +208,6 @@
 
   <footer><span>Accent-Controlled Speech Synthesis</span><span>Research demo · 2026</span></footer>
   <script src="app.js?v=20260901-31"></script>
+  <script src="research-viz.js?v=20260901-3"></script>
 </body>
 </html>
