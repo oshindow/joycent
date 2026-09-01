@@ -10,8 +10,10 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="prompt-panel.css">
-  <link rel="stylesheet" href="comparisons.css">
+  <link rel="stylesheet" href="comparisons.css?v=20260901-3">
   <link rel="stylesheet" href="environment.css">
+  <link rel="stylesheet" href="palette.css">
+  <link rel="stylesheet" href="panel-language.css?v=20260901-12">
 </head>
 <body>
   <nav class="nav" aria-label="Primary navigation">
@@ -40,50 +42,74 @@
   </header>
 
   <main>
-    <section class="intro section" id="same-speaker">
-      <p class="kicker">01 · ACCENT CONTROL</p>
-      <h2>One voice,<br><em>Seven accents.</em></h2>
-      <p class="lead">A fixed sentence synthesized with the same Speaker 129 identity. Only the accent condition changes.</p>
-      <div class="prompt-panel">
-        <div class="prompt-copy">
-          <span class="prompt-label">Synthesis text</span>
-          <p lang="zh-CN">“哎呀，挺不好教育的，而且你看现在学校。”</p>
-        </div>
-        <div class="reference-player">
-          <span class="prompt-label">Speaker reference · Speaker 129</span>
-          <audio controls preload="metadata">
-            <source src="audio/same-speaker/speaker-129-reference.wav" type="audio/wav">
-          </audio>
-        </div>
-      </div>
-      <div class="accent-strip" id="same-speaker-grid"></div>
+    <section class="section tinted" id="same-accent">
+      <p class="kicker">01 · SPEAKER CONTROL</p>
+      <h2>Generating multiple voices<br>with the same accent</h2>
+      <p class="lead">The distinct speaker speaking consistently in the selected accent.</p>
+      <!-- <div class="io-heading"><span>Input</span><strong>Text · Accent prompt · Speaker prompt</strong></div> -->
+      <div class="tabs" id="accent-tabs" role="tablist"></div>
+      <!-- <div class="io-heading output"><span>Output</span><strong>Accent-consistent speech in multiple voices</strong></div> -->
+      <div class="sample-grid" id="same-accent-grid"></div>
     </section>
 
-    <section class="section tinted" id="same-accent">
-      <p class="kicker">02 · SPEAKER CONTROL</p>
-      <h2>One accent,<br><em>multiple voices.</em></h2>
-      <p class="lead">Select an accent to compare distinct speaker identities under the same target accent. Samples are drawn from the retained evaluation set.</p>
-      <div class="tabs" id="accent-tabs" role="tablist"></div>
-      <div class="sample-grid" id="same-accent-grid"></div>
+    <section class="intro section" id="same-speaker">
+      <p class="kicker">02 · ACCENT CONTROL</p>
+      <h2>Generating multiple accents<br>with the same voice</h2>
+      <p class="lead">The same speaker identity and linguistic content rendered in seven target accents. In the F0 visualization, phone durations are normalized to the maximum duration for phone-level alignment across samples.</p>
+      <div class="same-speaker-input-row">
+        <div class="io-group input-group">
+          <div class="io-heading"><span>Input</span><strong>A shared text and voice · Seven accent prompts</strong></div>
+          <div class="prompt-panel">
+            <div class="prompt-copy">
+              <span class="prompt-label">Synthesis text</span>
+              <p lang="zh-CN">“哎呀，挺不好教育的，而且你看现在学校。”</p>
+            </div>
+            <div class="reference-player">
+              <span class="prompt-label">Speaker Prompt</span>
+              <audio controls preload="metadata">
+                <source src="audio/same-speaker/speaker-129-reference.wav" type="audio/wav">
+              </audio>
+            </div>
+          </div>
+          <div class="accent-prompt-grid" id="same-speaker-prompts-grid"></div>
+        </div>
+        <figure class="f0-figure">
+          <figcaption><span>F0 visualization</span><strong>Phone-aligned F0 contours across seven accents</strong></figcaption>
+          <a class="f0-image-link" href="assets/7_accents_world_phone_aligned.pdf" aria-label="Open the full F0 visualization as a PDF">
+            <img src="assets/7_accents_world_phone_aligned.png" alt="Phone-aligned F0 contours across seven accents">
+          </a>
+        </figure>
+      </div>
+      <div class="io-group output-group">
+        <div class="io-heading output"><span>Output</span><strong>Seven accents in the same voice</strong></div>
+        <div class="accent-strip" id="same-speaker-grid"></div>
+      </div>
     </section>
 
     <section class="section dark" id="cross-accent">
       <p class="kicker">03 · ZERO-SHOT TRANSFER</p>
-      <h2>Cross-accent<br><em>voice generation.</em></h2>
-      <p class="lead">Speaker identity and target accent come from different accent domains. Listen to the two references, then the generated result.</p>
+      <h2>Generating cross-accent speech<br>from independent prompts</h2>
+      <p class="lead">Given a <strong>speaker prompt and an accent prompt drawn from different accent domains</strong>, we study generating <strong>cross-accent speech</strong>: the voice from the speaker prompt rendered naturally in the accent specified by the independent accent prompt.</p>
+      <!-- <div class="io-heading"><span>Input</span><strong>Text · Speaker prompt · Target-accent prompt</strong></div> -->
+      <!-- <div class="io-heading output"><span>Output</span><strong>Identity-preserving cross-accent speech</strong></div> -->
       <div class="cross-grid" id="cross-grid"></div>
     </section>
 
-    <section class="section" id="environment">
+    <!-- <section class="section" id="environment">
       <p class="kicker">04 · ACOUSTIC ENVIRONMENT</p>
-      <h2>Recreating the voice<br><em>and the room around it.</em></h2>
-      <p class="lead">Five paired comparisons for speaker and acoustic-environment reconstruction. Each case contrasts the original speaker reference with the generated speech.</p>
+      <h2>Generating environmental speech<br>from a speaker recording</h2>
+      <p class="lead">Given a <strong>speaker recording with ambient acoustics</strong>, we study generating <strong>environment-preserving speech</strong>: the speaker's voice and surrounding room characteristics recreated in a new utterance.</p>
+      <div class="io-heading"><span>Input</span><strong>Speaker voice · Acoustic environment</strong></div>
+      <div class="io-heading output"><span>Output</span><strong>Reconstructed voice and environment</strong></div>
       <div class="environment-grid" id="environment-grid"></div>
-    </section>
+    </section> -->
 
     <section class="section method" id="method">
       <p class="kicker">05 · METHOD</p>
-      <h2>Decoupled control,<br><em>unified generation.</em></h2>
+      <h2>Generating controllable speech<br>from disentangled representations</h2>
+      <p class="lead">Given <strong>text, speaker, and accent conditions</strong>, we study generating <strong>independently controllable accented speech</strong>: accent and speaker information are separated in representation learning and injected at different stages of the text encoder.</p>
+      <div class="io-heading"><span>Input</span><strong>Text · Speaker condition · Accent condition</strong></div>
+      <div class="io-heading output"><span>Output</span><strong>Controllable accented speech</strong></div>
       <div class="method-placeholder">
         <div class="diagram-icon">⌁</div>
         <strong>Method figure placeholder</strong>
@@ -93,26 +119,30 @@
 
     <section class="section comparisons" id="comparisons">
       <p class="kicker">06 · MODEL COMPARISONS</p>
-      <h2>Baselines and<br><em>ablation models.</em></h2>
-      <p class="lead">Compare all systems on any of the 39 retained evaluation cases. The same speaker and accent references are shared across every model output.</p>
-      <div class="case-toolbar">
-        <label for="comparison-case">Evaluation case</label>
-        <select id="comparison-case" aria-label="Select one of 39 evaluation cases"></select>
-        <span id="comparison-count"></span>
+      <h2>Comparisons</h2>
+      <p class="lead">We show generated speech comparing our method with baselines and ablations.</p>
+      <div class="comparison-picker">
+        <!-- <strong>Select an accent</strong> -->
+        <div class="comparison-accent-tabs" id="comparison-accent-tabs" role="tablist"></div>
       </div>
-      <article class="comparison-stage">
-        <div class="comparison-summary">
-          <div><span class="meta">Transfer condition</span><strong id="comparison-route"></strong></div>
-          <div><span class="meta">Speaker</span><strong id="comparison-speaker"></strong></div>
-          <p id="comparison-text" lang="zh-CN"></p>
-        </div>
-        <div class="comparison-reference-grid" id="comparison-references"></div>
-        <div class="comparison-model-grid" id="comparison-models"></div>
-      </article>
+      <div class="comparison-layout">
+        <aside class="comparison-input">
+          <span class="comparison-badge">Input</span>
+          <div class="comparison-summary">
+            <strong>Synthesis text</strong>
+            <p id="comparison-text" lang="zh-CN"></p>
+          </div>
+          <div class="comparison-reference-grid" id="comparison-references"></div>
+        </aside>
+        <article class="comparison-stage">
+          <div class="comparison-output-heading"><span>Output</span><strong>Joycent, baselines, and ablations</strong></div>
+          <div class="comparison-model-grid" id="comparison-models"></div>
+        </article>
+      </div>
     </section>
   </main>
 
   <footer><span>Accent-Controlled Speech Synthesis</span><span>Research demo · 2026</span></footer>
-  <script src="app.js"></script>
+  <script src="app.js?v=20260901-31"></script>
 </body>
 </html>

@@ -17,12 +17,13 @@ Then open `http://localhost:8000`. A web server is required because the page loa
 - Edit the title, authors, institutions and abstract directly in `index.html` (they are also `contenteditable` in the browser for quick mock-up editing).
 - Replace the GitHub and Paper URLs in `index.html`.
 - Replace `assets/method-placeholder.svg` with the final method figure, keeping the filename, or update the CSS URL.
-- Add five environmental reconstruction pairs under `audio/environment/`: `case-1-reference.wav` and `case-1-generated.wav`, continuing through `case-5-reference.wav` and `case-5-generated.wav`. Missing files are intentional placeholders.
+- Add four environmental reconstruction pairs under `audio/environment/`, named `case-1-reference.wav` / `case-1-generated.wav` through `case-4-reference.wav` / `case-4-generated.wav`. Missing files are intentional placeholders.
 
 ## Data layout
 
 - `audio/same-speaker/`: Speaker 129, fixed text, seven accent conditions.
 - `audio/same-speaker/speaker-129-reference.wav`: reference voice shown above the seven accent conditions.
+- `audio/same-speaker/accent-prompt_*.wav`: original accent prompts paired with the seven generated outputs.
 - `audio/refs/`: speaker and accent reference recordings from the retained set.
 - `audio/systems/ours/`: generated samples used by the speaker-control and cross-accent sections.
 - `audio/systems/{diffusion_TTS,accentbox,dart,ours}/`: outputs used by the 39-case model comparison panel.

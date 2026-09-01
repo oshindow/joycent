@@ -1,0 +1,60 @@
+/* Restrained white, charcoal, and light-gray project-page palette. */
+:root {
+  --ink: #363636;
+  --paper: #ffffff;
+  --lime: #d6d6d6;
+  --violet: #c8c8c8;
+  --orange: #8a8a8a;
+  --line: rgba(54, 54, 54, .14);
+}
+
+body { background: #fff; }
+.nav { background: rgba(255, 255, 255, .92); }
+.brand span,
+.section h2 em,
+.comparisons h2 em,
+.dark h2 em { color: #363636; }
+
+.hero {
+  background: #fff;
+}
+
+.orb-a { background: #ededed; opacity: .48; }
+.orb-b { background: #dedede; opacity: .36; }
+.tinted { background: #fafafa; }
+.method { background: #fafafa; }
+.comparisons { background: #f5f5f5; }
+.environment-audio.generated { background: #f5f5f5; }
+.pair-arrow { color: #6b6b6b; }
+
+.dark {
+  background: #fff;
+  color: var(--ink);
+}
+
+.dark .lead { color: #4a4a4a; }
+.dark .cross-card {
+  border-color: var(--line);
+  background: #fff;
+}
+.dark .mini-audio label { color: #6b6b6b; }
+.dark .mini-audio audio { filter: none; }
+.dark .arrow { color: #6b6b6b; }
+
+.comparison-audio.featured {
+  border-color: #363636;
+  box-shadow: inset 0 0 0 1px #363636;
+}
+
+.method-placeholder { background-color: #fff; }
+
+footer {
+  background: #f5f5f5;
+  color: #4a4a4a;
+  border-top: 1px solid var(--line);
+}
+
+.pill { background: #363636; }
+.pill.light { color: #363636; background:#f5f5f5; }
+.tab.active { background: #363636; }
+.kicker { color: #7a7a7a; }

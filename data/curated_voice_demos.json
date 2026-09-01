@@ -1,0 +1,31 @@
+[
+  {"target_accent":"Shanghai","speaker_id":387,"text":"人 家 诶 搿 辰 光 人 家 就 开 始 做 搿 生 意 了","systems":{"ours":"audio/voice-demos/shanghai-spk387-1.wav"}},
+  {"target_accent":"Shanghai","speaker_id":390,"text":"困 勒 伐 特 老 公 讲 好 勒 伐","systems":{"ours":"audio/voice-demos/shanghai-spk390-1.wav"}},
+  {"target_accent":"Shanghai","speaker_id":376,"text":"所 以 有 了 毛 病 去 劳 动 确 实 是 蛮 讨 厌 有 些 小 毛 病 拖 成 大 毛 病","systems":{"ours":"audio/voice-demos/shanghai-spk376-1.wav"}},
+  {"target_accent":"Shanghai","speaker_id":311,"text":"吾 就 等 老 侬 呃 消 息 侬 困 了 伐","systems":{"ours":"audio/voice-demos/shanghai-spk311-1.wav"}},
+  {"target_accent":"Shanghai","speaker_id":375,"text":"钻 钻 到 搿 烤 麸 里 相 去 辣 阿 拉 讲 起 来 是 吃 进 去 吃 进 去 辣","systems":{"ours":"audio/systems/ours/6122bd450908e316.wav"}},
+  {"target_accent":"Shanghai","speaker_id":391,"text":"侬 辣 海 组 撒 伐 讲 闲 话 算 了","systems":{"ours":"audio/systems/ours/b60c24b87d0a7ff6.wav"}},
+
+  {"target_accent":"Guangdong","speaker_id":387,"text":"南 方 航 空 公 司 梗 系 好 啲 嘅 会 唔 会 阻 佢 呢 个 应 该 唔 系 机 场 内 部 嗰 啲 嘢 嘞","systems":{"ours":"audio/voice-demos/guangdong-curated-spk387.wav"}},
+  {"target_accent":"Guangdong","speaker_id":200,"text":"关 咗 个 天 窗 通 风","systems":{"ours":"audio/systems/ours/337b24a8467ae2b8.wav"}},
+  {"target_accent":"Guangdong","speaker_id":200,"text":"它 这 种 就 是 第 三 人 称 我 就 比 较 少 玩","systems":{"ours":"audio/systems/ours/6ee72e59eba7b451.wav"}},
+  {"target_accent":"Guangdong","speaker_id":208,"text":"老 公 食 完 啦 唔 好 食 挂 住 你","systems":{"ours":"audio/voice-demos/guangdong-spk208-1.wav"}},
+  {"target_accent":"Guangdong","speaker_id":208,"text":"我 到 现 在 还 不 知 道 哦 这 个 还 早","systems":{"ours":"audio/voice-demos/guangdong-spk208-2.wav"}},
+  {"target_accent":"Guangdong","speaker_id":392,"text":"嗰 个 我 都 唔 知 啊","systems":{"ours":"audio/voice-demos/guangdong-curated-spk392.wav"}},
+
+  {"target_accent":"Sichuan","speaker_id":138,"text":"啷 个 怎 么 做 一 个 忠 孝 两 全 的 人","systems":{"ours":"audio/systems/ours/eb897263e2a9a6fe.wav"}},
+  {"target_accent":"Sichuan","speaker_id":138,"text":"等 很 多 东 西 但 是 你 都 带 不 走 它","systems":{"ours":"audio/systems/ours/fe775887218ff648.wav"}},
+  {"target_accent":"Sichuan","speaker_id":129,"text":"这 个 手 机 不 错 价 格 也","systems":{"ours":"audio/systems/ours/a33d08b4a194b9b7.wav"}},
+  {"target_accent":"Sichuan","speaker_id":129,"text":"遵 义 的 时 候 就 回 来 的 路 上 的 时 候 跟 他 说 啊 我 们 要 去 吃 点 面 啊 或 者 说 吃 点 那 个","systems":{"ours":"audio/systems/ours/947d75ee025055af.wav"}},
+  {"target_accent":"Sichuan","speaker_id":166,"text":"是 的 水 果 你 最 喜 欢 吃 什 么 水 果 呀","systems":{"ours":"audio/voice-demos/sichuan-spk166-1.wav"}},
+  {"target_accent":"Sichuan","speaker_id":376,"text":"所 以 说 人 家 所 以 说 人 家 收 了 你 的 钱 啊 也 是 值 得 的","systems":{"ours":"audio/voice-demos/sichuan-curated-spk376.wav"}},
+
+  {"target_accent":"Tianjin","speaker_id":387,"text":"真 是 给 你 留 下 来 复 习 功 课 一 分 钱","systems":{"ours":"audio/voice-demos/tianjin-curated-spk387.wav"}},
+
+  {"target_accent":"Wuhan","speaker_id":325,"text":"网 上 什 么 地 方 可 以 学 编 辑 程 序","systems":{"ours":"audio/voice-demos/wuhan-curated-spk325.wav"}},
+  {"target_accent":"Wuhan","speaker_id":320,"text":"中 韩 连 线 登 录 不 了 为 么 斯","systems":{"ours":"audio/voice-demos/wuhan-curated-spk320.wav"}},
+  {"target_accent":"Wuhan","speaker_id":324,"text":"百 度 晓 得 是 么 时 候 开 的","systems":{"ours":"audio/voice-demos/wuhan-curated-spk324.wav"}},
+  {"target_accent":"Wuhan","speaker_id":386,"text":"程 序 删 不 掉 怎 么 办","systems":{"ours":"audio/voice-demos/wuhan-curated-spk386.wav"}},
+  {"target_accent":"Wuhan","speaker_id":319,"text":"白 羊 座 与 天 秤 座 能 在 一 起 吗","systems":{"ours":"audio/systems/ours/fce39f2bfcd15047.wav"}},
+  {"target_accent":"Wuhan","speaker_id":318,"text":"么 样 更 改 网 通 宽 带 密 码","systems":{"ours":"audio/voice-demos/wuhan-spk318-1.wav"}}
+]
