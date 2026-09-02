@@ -12,10 +12,10 @@
   <link rel="stylesheet" href="prompt-panel.css">
   <link rel="stylesheet" href="comparisons.css?v=20260901-3">
   <link rel="stylesheet" href="environment.css">
-  <link rel="stylesheet" href="palette.css">
+  <link rel="stylesheet" href="palette.css?v=20260902-1">
   <link rel="stylesheet" href="panel-language.css?v=20260901-12">
-  <link rel="stylesheet" href="research-viz.css?v=20260901-3">
-  <link rel="stylesheet" href="architecture-viz.css?v=20260901-2">
+  <link rel="stylesheet" href="research-viz.css?v=20260901-7">
+  <link rel="stylesheet" href="architecture-viz.css?v=20260902-10">
 </head>
 <body>
   <nav class="nav" aria-label="Primary navigation">
@@ -45,12 +45,12 @@
 
   <main>
     <section class="section research-viz" id="research-viz">
-      <p class="kicker">HOW JOYCENT WORKS</p>
+      <p class="kicker">METHOD</p>
       <h2>Separating accent and speaker<br>throughout synthesis</h2>
-      <p class="lead">Explore how Joycent disentangles its two speech prompts, how it is evaluated, and where its improvements come from.</p>
+      <p class="lead">Joycent's idea is to <strong>separate accent from speaker identity throughout synthesis</strong>.<br>It draws on <strong>speaker-disentangled accent modeling and layer-specific conditioning</strong>: injecting accent information early and speaker information late enables effective accent transfer while preserving the target voice.</p>
       <div class="viz-grid">
       <div class="viz-panel active" data-panel="pipeline">
-        <h3>Interactive architecture of Joycent</h3>
+        <h3>Overall architecture of Joycent</h3>
         <p class="architecture-hint">Hover over each component to inspect its role.</p>
         <div class="figure-pieces" aria-label="Interactive original architecture figure of Joycent">
           <figure class="figure-piece whisaid-piece"><img src="assets/joycent-fig1-whisaid.png" alt="Original WhisAID architecture from Figure 1"><figcaption>WhisAID</figcaption></figure>
@@ -103,17 +103,18 @@
       </div>
 
       <div class="viz-panel" data-panel="objective">
-        <h3>Objective results</h3>
-        <div class="viz-controls"><div id="objective-setting"></div><div id="objective-metric"></div></div>
-        <div class="bar-chart" id="objective-chart"></div>
-        <p class="chart-note" id="objective-note"></p>
-      </div>
-
-      <div class="viz-panel" data-panel="subjective">
-        <h3>Subjective results</h3>
-        <div class="viz-controls"><div id="subjective-metric"></div></div>
-        <div class="bar-chart subjective-chart" id="subjective-chart"></div>
-        <p class="chart-note">Mean listener ratings aggregated across the three synthesis settings.</p>
+        <h3>Objective and subjective results</h3>
+        <div class="metric-guide" aria-label="Radar chart metric definitions">
+          <div><strong>W-CS ↑</strong><span>Accent similarity measured with WhisAID.</span></div>
+          <div><strong>WU-CS ↑</strong><span>Accent similarity measured with WhisAID<sub>adv.</sub></span></div>
+          <div><strong>Spk.-CS ↑</strong><span>Speaker similarity measured with WavLM-Large.</span></div>
+          <div><strong>CER ↓</strong><span>Character error rate obtained with Qwen3-ASR-1.7B.</span></div>
+          <div><strong>MOS ↑</strong><span>Listener-rated naturalness on a 5-point scale.</span></div>
+          <div><strong>SMOS-S ↑</strong><span>Listener-rated speaker similarity on a 4-point scale.</span></div>
+          <div><strong>SMOS-A ↑</strong><span>Listener-rated accent similarity on a 4-point scale.</span></div>
+        </div>
+        <div id="objective-table"></div>
+        <p class="chart-note">Objective and subjective measures share one polygon. Axes are scaled per metric; hover a model to reveal original values and 95% confidence intervals.</p>
       </div>
 
       </div>
@@ -208,6 +209,6 @@
 
   <footer><span>Accent-Controlled Speech Synthesis</span><span>Research demo · 2026</span></footer>
   <script src="app.js?v=20260901-31"></script>
-  <script src="research-viz.js?v=20260901-3"></script>
+  <script src="research-viz.js?v=20260902-8"></script>
 </body>
 </html>

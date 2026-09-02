@@ -58,3 +58,7 @@ footer {
 .pill.light { color: #363636; background:#f5f5f5; }
 .tab.active { background: #363636; }
 .kicker { color: #7a7a7a; }
+
+/* Tighter rhythm between the main demo panels. */
+.section { padding-top:60px; padding-bottom:60px; }
+@media(max-width:900px){.section{padding-top:68px;padding-bottom:68px}}
