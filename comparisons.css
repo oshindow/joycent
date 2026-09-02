@@ -3,7 +3,7 @@
 .comparison-picker > strong { display:block; margin-bottom:14px; font:600 28px Manrope; }
 .comparison-accent-tabs { display:flex; flex-wrap:wrap; justify-content:center; gap:8px; }
 .comparison-accent-tab { padding:10px 18px; border:1px solid var(--line); border-radius:999px; background:#fff; color:var(--ink); font:500 13px Manrope; cursor:pointer; }
-.comparison-accent-tab.active { background:#363636; color:#fff; border-color:#363636; box-shadow:0 7px 18px rgba(0,0,0,.12); }
+.comparison-accent-tab.active { background:#1597e5; color:#fff; border-color:#1597e5; box-shadow:0 6px 16px rgba(21,151,229,.22); }
 .case-toolbar { display:flex; align-items:center; justify-content:center; gap:12px; margin-bottom:28px; }
 .case-toolbar label { font:600 11px Manrope; letter-spacing:.12em; text-transform:uppercase; }
 .case-toolbar select { width:min(560px,60vw); padding:12px 40px 12px 15px; border:1px solid var(--line); border-radius:999px; background:#fff; color:var(--ink); font:500 13px Manrope; }
