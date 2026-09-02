@@ -54,4 +54,4 @@ function renderEnvironment(){
   $("#environment-grid").innerHTML=Array.from({length:4},(_,i)=>`<article class="environment-case compact"><div class="environment-heading"><span class="slot">0${i+1}</span><h3>Case ${i+1}</h3></div><div class="environment-pair"><div class="environment-audio"><span>Speaker reference</span><small>Original environment</small>${audio(`audio/environment/case-${i+1}-reference.wav`)}</div><div class="environment-audio generated"><span>Generated speech</span><small>Reconstructed environment</small>${audio(`audio/environment/case-${i+1}-generated.wav`)}</div></div></article>`).join("");
 }
 window.addEventListener("scroll",()=>{const y=Math.min(scrollY/(innerHeight*.7),1);const hero=$(".hero-sticky");hero.style.opacity=1-y;hero.style.transform=`translateY(${-y*55}px) scale(${1-y*.04})`});
-init().catch(err=>{console.error(err);document.body.insertAdjacentHTML("beforeend",`<p style="position:fixed;bottom:10px;left:10px;background:#fee;padding:10px">Run through a local web server to load demo data.</p>`)});
+init().catch(err=>{console.error(err)});

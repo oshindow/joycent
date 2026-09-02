@@ -29,6 +29,6 @@
 .comparison-audio small { min-height:19px; margin-top:3px; color:#777; font-size:10px; text-transform:uppercase; letter-spacing:.08em; }
 .comparison-audio audio { width:100%; height:34px; }
 .comparison-audio.reference { padding:12px; background:#f7f7f7; }
-.comparison-audio.featured { border-color:#363636; box-shadow:inset 0 0 0 1px #363636; background:#fff; }
+.comparison-audio.featured { border-color:#1597e5; box-shadow:inset 0 0 0 1px #1597e5,0 6px 16px rgba(21,151,229,.12); background:#fff; }
 @media(max-width:1000px){.comparison-layout{grid-template-columns:1fr}.comparison-input{position:static}.comparison-reference-grid{grid-template-columns:1fr 1fr}.comparison-model-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.comparison-picker{text-align:left}.comparison-accent-tabs{justify-content:flex-start}.case-toolbar{align-items:stretch;flex-direction:column}.case-toolbar select{width:100%}.comparison-reference-grid,.comparison-model-grid{grid-template-columns:1fr}.comparison-stage{padding:16px}}

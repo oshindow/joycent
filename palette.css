@@ -42,8 +42,8 @@ body { background: #fff; }
 .dark .arrow { color: #6b6b6b; }
 
 .comparison-audio.featured {
-  border-color: #363636;
-  box-shadow: inset 0 0 0 1px #363636;
+  border-color:#1597e5;
+  box-shadow:inset 0 0 0 1px #1597e5,0 6px 16px rgba(21,151,229,.12);
 }
 
 .method-placeholder { background-color: #fff; }

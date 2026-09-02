@@ -10,19 +10,20 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="prompt-panel.css">
-  <link rel="stylesheet" href="comparisons.css?v=20260902-4">
+  <link rel="stylesheet" href="comparisons.css?v=20260902-6">
   <link rel="stylesheet" href="environment.css">
-  <link rel="stylesheet" href="palette.css?v=20260902-2">
+  <link rel="stylesheet" href="palette.css?v=20260902-3">
   <link rel="stylesheet" href="panel-language.css?v=20260901-12">
   <link rel="stylesheet" href="research-viz.css?v=20260901-7">
+  <style>.research-viz .lead{max-width:980px}</style>
   <link rel="stylesheet" href="architecture-viz.css?v=20260902-10">
 </head>
 <body>
   <nav class="nav" aria-label="Primary navigation">
-    <a class="brand" href="#top">ACCENT<span>LAB</span></a>
+    <a class="brand" href="#top">Joy<span>cent</span></a>
     <div class="nav-links">
-      <a href="#same-speaker">Same speaker</a><a href="#same-accent">Same accent</a>
-      <a href="#cross-accent">Cross-accent</a><a href="#environment">Environment</a><a href="#comparisons">Comparisons</a>
+      <a href="#research-viz">Method &amp; Results</a><a href="#same-accent">Multiple Voices</a>
+      <a href="#same-speaker">Multiple Accents</a><a href="#cross-accent">Cross-accent</a><a href="#comparisons">Comparisons</a>
     </div>
   </nav>
 
@@ -34,11 +35,11 @@
       <p class="authors" contenteditable="true" spellcheck="false">Xintong Wang · Junchuan Zhao · Ye Wang</p>
       <p class="institutions" contenteditable="true" spellcheck="false">School of Computing, National University of Singapore, Singapore</p>
       <div class="hero-actions">
-        <a class="pill" href="https://github.com/oshindow/joycent" target="_blank" rel="noreferrer">↗ GitHub Code</a>
-        <a class="pill light" href="#" aria-label="Paper link placeholder">◫ Paper</a>
+        <a class="pill" href="https://github.com/oshindow/Joycent-code" target="_blank" rel="noreferrer">↗ GitHub Code</a>
+        <a class="pill light" href="https://arxiv.org/pdf/2606.16417" target="_blank" rel="noreferrer">◫ Paper</a>
       </div>
       <p class="abstract" contenteditable="true" spellcheck="false">Joycent is a <strong>diffusion-based accent TTS</strong> framework that synthesizes speech in a target accent while preserving speaker identity — by separating accent and speaker information in both representation learning and generation conditioning. Using WhisAID to learn speaker-disentangled accent representations and layer-specific conditional layer normalization to inject accent and speaker information at different stages of the text encoder, Joycent enables robust synthesis for seen and unseen speakers, including challenging cross-accent settings where the speaker and accent prompts come from different accents.</p>
-      <p class="edit-note">Title, author, institution and abstract are editable placeholders.</p>
+      <!-- <p class="edit-note">Title, author, institution and abstract are editable placeholders.</p> -->
     </div>
     <div class="scroll-hint"><span></span>Scroll to explore</div>
   </header>
@@ -47,11 +48,11 @@
     <section class="section research-viz" id="research-viz">
       <p class="kicker">METHOD</p>
       <h2>Separating accent and speaker<br>throughout synthesis</h2>
-      <p class="lead">Joycent's idea is to <strong>separate accent from speaker identity throughout synthesis</strong>.<br>It draws on <strong>speaker-disentangled accent modeling and layer-specific conditioning</strong>: injecting accent information early and speaker information late enables effective accent transfer while preserving the target voice.</p>
+      <p class="lead">Joycent treats <strong>accent and speaker identity as two independent conditioning signals</strong> for speech generation.<br>It draws on <strong>speaker-disentangled accent modeling and layer-specific conditioning</strong>: injecting accent information early and speaker information late enables effective accent transfer while preserving the target voice.</p>
       <div class="viz-grid">
       <div class="viz-panel active" data-panel="pipeline">
         <h3>Overall architecture of Joycent</h3>
-        <p class="architecture-hint">Hover over each component to inspect its role.</p>
+        <!-- <p class="architecture-hint">Hover over each component to inspect its role.</p> -->
         <div class="figure-pieces" aria-label="Interactive original architecture figure of Joycent">
           <figure class="figure-piece whisaid-piece"><img src="assets/joycent-fig1-whisaid.png" alt="Original WhisAID architecture from Figure 1"><figcaption>WhisAID</figcaption></figure>
           <figure class="figure-piece cln-piece"><img src="assets/joycent-fig1-cln.png" alt="Original conditional layer normalization architecture from Figure 1"><figcaption>Conditional Layer Norm</figcaption></figure>
@@ -121,7 +122,7 @@
     </section>
 
     <section class="section tinted" id="same-accent">
-      <p class="kicker">01 · SPEAKER CONTROL</p>
+      <p class="kicker">01 · MULTIPLE VOICES</p>
       <h2>Generating multiple voices<br>with the same accent</h2>
       <p class="lead">The distinct speaker speaking consistently in the selected accent.</p>
       <!-- <div class="io-heading"><span>Input</span><strong>Text · Accent prompt · Speaker prompt</strong></div> -->
@@ -131,7 +132,7 @@
     </section>
 
     <section class="intro section" id="same-speaker">
-      <p class="kicker">02 · ACCENT CONTROL</p>
+      <p class="kicker">02 · MULTIPLE ACCENTS</p>
       <h2>Generating multiple accents<br>with the same voice</h2>
       <p class="lead">The same speaker identity and linguistic content rendered in seven target accents. In the F0 visualization, phone durations are normalized to the maximum duration for phone-level alignment across samples.</p>
       <div class="same-speaker-input-row">
@@ -165,7 +166,7 @@
     </section>
 
     <section class="section dark" id="cross-accent">
-      <p class="kicker">03 · ZERO-SHOT TRANSFER</p>
+      <p class="kicker">03 · Cross-accent</p>
       <h2>Generating cross-accent speech<br>from independent prompts</h2>
       <p class="lead">Given a <strong>speaker prompt and an accent prompt drawn from different accent domains</strong>, we study generating <strong>cross-accent speech</strong>: the voice from the speaker prompt rendered naturally in the accent specified by the independent accent prompt.</p>
       <!-- <div class="io-heading"><span>Input</span><strong>Text · Speaker prompt · Target-accent prompt</strong></div> -->
@@ -207,8 +208,8 @@
     </section>
   </main>
 
-  <footer><span>Accent-Controlled Speech Synthesis</span><span>Research demo · 2026</span></footer>
-  <script src="app.js?v=20260901-31"></script>
+  <footer><span>Accent Text-to-Speech</span><span>Research demo · 2026</span></footer>
+  <script src="app.js?v=20260902-1"></script>
   <script src="research-viz.js?v=20260902-8"></script>
 </body>
 </html>
