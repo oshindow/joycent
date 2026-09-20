@@ -1,5 +1,5 @@
 .section .kicker { margin-bottom:14px; color:#7a7a7a; }
-.section h2 { max-width:920px; margin-bottom:22px; font-size:clamp(36px,4.8vw,64px); line-height:1.08; }
+.section h2 { max-width:920px; margin-bottom:22px; font-size:clamp(28px,3.4vw,46px); line-height:1.12; }
 .section .lead { max-width:860px; margin-bottom:42px; color:#4a4a4a; font-size:18px; }
 .section .lead strong { color:#222; font-weight:600; }
 #same-speaker .lead { max-width:1080px; }

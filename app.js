@@ -39,7 +39,7 @@ function renderComparisons(samples){
   const accents=["Tianjin","Wuhan","Sichuan","Shanghai","Henan","singapore","Guangdong"];
   const selected=Object.fromEntries(accents.map(a=>[a,samples.find(x=>x.target_accent===a&&x.text===selectedTexts[a])]));
   let activeAccent=accents[0];
-  const models=[["ours","Joycent","Ours"],["diffusion_TTS","DDGM-Acc","Baseline"],["accentbox","AccentBox","Baseline"],["dart","DART","Baseline"],["ours_no_grl","Joycent w/o GRL","Ablation"],["ours_add","Joycent w/o CLN","Ablation"],["ours_acc_blk3","Joycent acc-blk3","Ablation"],["ours_small","Joycent-small","Variant"],["ours_large","Joycent-turbo","Variant"]];
+  const models=[["ours","Joycent","Ours"],["diffusion_TTS","DDGM-Acc","Baseline"],["accentbox","AccentBox","Baseline"],["dart","DART","Baseline"],["ours_no_grl","Joycent w/o GRL","Ablation"],["ours_add","Joycent w/o CLN","Ablation"],["ours_acc_blk3","Joycent acc3-spk6","Ablation"],["ours_small","Joycent-small","Variant"],["ours_large","Joycent-turbo","Variant"]];
   const update=()=>{
     const x=selected[activeAccent];
     $("#comparison-text").textContent=x.text;
